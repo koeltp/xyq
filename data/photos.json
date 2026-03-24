@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "id": "basic-training",
+      "name": "基础训练",
+      "description": "学员们在练习形意拳的基本动作",
+      "photos": [
+        {
+          "id": "basic-1",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "基础训练1",
+          "caption": "学员们在练习基本动作"
+        },
+        {
+          "id": "basic-2",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "基础训练2",
+          "caption": "站桩练习"
+        },
+        {
+          "id": "basic-3",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "基础训练3",
+          "caption": "基本拳法练习"
+        }
+      ]
+    },
+    {
+      "id": "master-teaching",
+      "name": "师傅教学",
+      "description": "师傅正在指导学员练习",
+      "photos": [
+        {
+          "id": "master-1",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "师傅教学1",
+          "caption": "师傅指导学员"
+        },
+        {
+          "id": "master-2",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "师傅教学2",
+          "caption": "师傅示范动作"
+        },
+        {
+          "id": "master-3",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "师傅教学3",
+          "caption": "师傅纠正动作"
+        }
+      ]
+    },
+    {
+      "id": "forms-demo",
+      "name": "套路展示",
+      "description": "学员展示形意拳套路",
+      "photos": [
+        {
+          "id": "forms-1",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "套路展示1",
+          "caption": "五行拳套路展示"
+        },
+        {
+          "id": "forms-2",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "套路展示2",
+          "caption": "连环拳展示"
+        },
+        {
+          "id": "forms-3",
+          "src": "images/wuxinquan/五行拳.jpg",   
+          "alt": "套路展示3",
+          "caption": "杂式锤展示"
+        }
+      ]
+    },
+    {
+      "id": "weapons-training",
+      "name": "器械训练",
+      "description": "学员练习形意拳器械",
+      "photos": [
+        {
+          "id": "weapons-1",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "器械训练1",
+          "caption": "形意刀练习"
+        },
+        {
+          "id": "weapons-2",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "器械训练2",
+          "caption": "形意枪练习"
+        },
+        {
+          "id": "weapons-3",
+          "src": "images/wuxinquan/五行拳.jpg",   
+          "alt": "器械训练3",
+          "caption": "器械套路练习"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "name": "比赛场景",
+      "description": "形意拳比赛现场",
+      "photos": [
+        {
+          "id": "competition-1",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "比赛场景1",
+          "caption": "比赛现场"
+        },
+        {
+          "id": "competition-2",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "比赛场景2",
+          "caption": "选手对决"
+        },
+        {
+          "id": "competition-3",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "比赛场景3",
+          "caption": "颁奖仪式"
+        }
+      ]
+    },
+    {
+      "id": "group-photo",
+      "name": "集体合影",
+      "description": "学员们的集体合影",
+      "photos": [
+        {
+          "id": "group-1",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "集体合影1",
+          "caption": "全体学员合影"
+        },
+        {
+          "id": "group-2",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "集体合影2",
+          "caption": "班级合影"
+        },
+        {
+          "id": "group-3",
+          "src": "images/wuxinquan/五行拳.jpg",
+          "alt": "集体合影3",
+          "caption": "师生合影"
+        }
+      ]
+    }
+  ]
+}
