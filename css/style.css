@@ -19,12 +19,13 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #333;
     padding: 1rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: #333;
 }
 
 .logo-img {
@@ -58,7 +59,7 @@ nav {
 .logo-text {
     font-family: 'Ma Shan Zheng', cursive;
     font-size: 1.8rem;
-    color: white;
+    color: #333;
 }
 
 nav ul {
@@ -71,7 +72,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -104,12 +105,49 @@ main {
 }
 
 .hero {
-    background-color: #f5f5f5;
-    color: #333;
+    background: linear-gradient(135deg, #111 0%, #333 100%);
+    color: white;
     padding: 6rem 2rem;
     text-align: center;
     margin-bottom: 3rem;
-    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    max-width: none;
+    border-radius: 0;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(243,156,18,0.1) 0%, transparent 70%);
+    animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero-content h2 {
@@ -117,13 +155,26 @@ main {
     font-size: 6rem;
     margin-bottom: 1rem;
     letter-spacing: 0.1em;
-    color: #333;
+    color: white;
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: #666;
+    color: #ddd;
+    animation: fadeInUp 1s ease-out 0.3s both;
 }
 
 .btn {
@@ -134,11 +185,31 @@ main {
     text-decoration: none;
     border-radius: 4px;
     font-size: 1.1rem;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 1s ease-out 0.6s both;
 }
 
 .btn:hover {
     background-color: #e67e22;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(243,156,18,0.4);
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.6s;
+}
+
+.btn:hover::before {
+    left: 100%;
 }
 
 .features {
@@ -716,8 +787,12 @@ footer {
         margin: 0.5rem;
     }
 
+    .hero {
+        padding: 4rem 1rem;
+    }
+
     .hero-content h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     main {
@@ -735,11 +810,11 @@ footer {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 4rem 1rem;
+        padding: 3rem 1rem;
     }
 
     .hero-content h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .pricing-card,
