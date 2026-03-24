@@ -36,10 +36,29 @@ nav {
     padding: 0 2rem;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
-    font-weight: bold;
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.logo-text {
     font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.8rem;
+    color: white;
 }
 
 nav ul {
@@ -215,13 +234,15 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-.footer-links ul li a {
+.footer-links ul li a,
+.footer-links p a {
     color: #ddd;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.footer-links ul li a:hover {
+.footer-links ul li a:hover,
+.footer-links p a:hover {
     color: #f39c12;
 }
 
@@ -229,7 +250,22 @@ footer {
     text-align: center;
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid #555;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom .beian {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.footer-bottom .beian a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom .beian a:hover {
+    color: #f39c12;
 }
 
 /* 收费表页面样式 */
