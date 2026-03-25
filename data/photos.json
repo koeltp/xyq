@@ -7,98 +7,56 @@
       "photos": [
         {
           "id": "basic-1",
-          "src": "images/wuxinquan/五行拳.jpg",
-          "alt": "基础训练1",
-          "caption": "学员们在练习基本动作"
-        },
-        {
-          "id": "basic-2",
-          "src": "images/wuxinquan/五行拳.jpg",
-          "alt": "基础训练2",
-          "caption": "站桩练习"
-        },
-        {
-          "id": "basic-3",
-          "src": "images/wuxinquan/五行拳.jpg",
-          "alt": "基础训练3",
-          "caption": "基本拳法练习"
-        },
-        {
-          "id": "basic-4",
-          "src": "images/basic-training/IMG_3281.JPG",
-          "alt": "基础训练4",
-          "caption": "站桩姿势练习"
-        },
-        {
-          "id": "basic-5",
           "src": "images/basic-training/IMG_3282.JPG",
-          "alt": "基础训练5",
+          "alt": "基础训练1",
           "caption": "基本拳法动作"
         },
         {
-          "id": "basic-6",
+          "id": "basic-2",
           "src": "images/basic-training/IMG_3283.JPG",
-          "alt": "基础训练6",
+          "alt": "基础训练2",
           "caption": "步法训练"
         },
         {
-          "id": "basic-7",
+          "id": "basic-3",
           "src": "images/basic-training/IMG_3284.JPG",
-          "alt": "基础训练7",
+          "alt": "基础训练3",
           "caption": "拳法组合练习"
         },
         {
-          "id": "basic-8",
+          "id": "basic-4",
           "src": "images/basic-training/IMG_3285.JPG",
-          "alt": "基础训练8",
+          "alt": "基础训练4",
           "caption": "身法练习"
         },
         {
-          "id": "basic-9",
+          "id": "basic-5",
           "src": "images/basic-training/IMG_3286.JPG",
-          "alt": "基础训练9",
+          "alt": "基础训练5",
           "caption": "腿法训练"
         },
         {
-          "id": "basic-10",
+          "id": "basic-6",
           "src": "images/basic-training/IMG_3287.JPG",
-          "alt": "基础训练10",
+          "alt": "基础训练6",
           "caption": "平衡练习"
         },
         {
-          "id": "basic-11",
-          "src": "images/basic-training/IMG_3408.JPG",
-          "alt": "基础训练11",
-          "caption": "柔韧性训练"
-        },
-        {
-          "id": "basic-12",
-          "src": "images/basic-training/IMG_3608.JPG",
-          "alt": "基础训练12",
-          "caption": "力量训练"
-        },
-        {
-          "id": "basic-13",
-          "src": "images/basic-training/IMG_3609.JPG",
-          "alt": "基础训练13",
-          "caption": "速度训练"
-        },
-        {
-          "id": "basic-14",
+          "id": "basic-7",
           "src": "images/basic-training/zhanzhuang.jpg",
-          "alt": "基础训练14",
+          "alt": "基础训练7",
           "caption": "站桩练习"
         },
         {
-          "id": "basic-15",
+          "id": "basic-8",
           "src": "images/basic-training/zhanzhuang1.jpg",
-          "alt": "基础训练15",
+          "alt": "基础训练8",
           "caption": "站桩练习"
         },
         {
-          "id": "basic-16",
-          "src": "images/basic-training/zhanzhuang2.JPG",
-          "alt": "基础训练16",
+          "id": "basic-9",
+          "src": "images/basic-training/zhanzhuang2.jpg",
+          "alt": "基础训练9",
           "caption": "站桩练习"
         }
       ]
