@@ -42,18 +42,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
     if (window.scrollY > 50) {
-        header.style.backgroundColor = 'rgba(51, 51, 51, 0.9)';
+        header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
     } else {
-        header.style.backgroundColor = '#333';
+        header.style.backgroundColor = '#ffffff';
+        header.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
     }
 });
 
-// 表单提交处理
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert('感谢您的留言，我们会尽快回复您！');
-        this.reset();
-    });
-}
+

@@ -79,7 +79,7 @@
           "id": "applications-1",
           "title": "近身短打",
           "description": "学习形意拳的近身短打技巧。",
-          "videoSrc": "videos/wuxinquan/IMG_1873.mp4",
+          "videoSrc": "videos/shizhan/WeChat_20190327210652.mp4",
           "thumbnail": "images/wuxinquan/五行拳.jpg",
           "content": "形意拳的实战应用注重近身短打，以快打慢，以刚克刚。本课程将讲解形意拳在实战中的基本应用技巧，包括步法移动、攻防转换、劲力运用等核心内容。",
           "keyPoints": [
@@ -93,13 +93,26 @@
           "id": "applications-2",
           "title": "攻防转换",
           "description": "掌握形意拳的攻防转换技巧。",
-          "videoSrc": "videos/wuxinquan/IMG_1873.mp4",
+          "videoSrc": "videos/shizhan/WeChat_20190327210707.mp4",
           "thumbnail": "images/wuxinquan/五行拳.jpg",
           "content": "攻防转换是形意拳实战中的关键技巧，要求在攻防之间快速切换，保持主动。本课程将详细讲解攻防转换的基本原理和实用技巧。",
           "keyPoints": [
             "攻防转换基本原理",
             "攻防时机把握",
             "攻防动作衔接",
+            "实战对练演示"
+          ]
+        },{
+          "id": "applications-3",
+          "title": "劲力运用",
+          "description": "掌握形意拳的劲力运用技巧。",
+          "videoSrc": "videos/shizhan/WeChat_20190327210723.mp4",
+          "thumbnail": "images/wuxinquan/五行拳.jpg",
+          "content": "劲力运用是形意拳实战中的关键技巧，要求在劲力之间快速切换，保持主动。本课程将详细讲解劲力运用的基本原理和实用技巧。",
+          "keyPoints": [
+            "劲力运用基本原理",
+            "劲力运用时机把握",
+            "劲力运用动作衔接",
             "实战对练演示"
           ]
         }
