@@ -1,0 +1,191 @@
+/* 照片墙页面样式 */
+.gallery {
+    margin-bottom: 3rem;
+}
+
+.gallery h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.gallery-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-info {
+    padding: 1rem;
+}
+
+.gallery-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.gallery-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.gallery-item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item-link:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item-link:hover .gallery-item h4 {
+    color: #f39c12;
+}
+
+.gallery-item-link:hover .gallery-item {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* 幻灯片样式 */
+#slideshowModal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+#slideshowModal .modal-content {
+    position: relative;
+    margin: 5% auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#slideshowModal .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+#slideshowContainer {
+    position: relative;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#slideshowImage {
+    width: 100%;
+    height: 70vh;
+    object-fit: contain;
+}
+
+#slideshowCaption {
+    text-align: center;
+    color: #f1f1f1;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#slideshowPrev,
+#slideshowNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border: 2px solid rgba(255,255,255,0.3);
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slideshowPrev {
+    left: 20px;
+}
+
+#slideshowNext {
+    right: 20px;
+}
+
+#slideshowPrev:hover,
+#slideshowNext:hover {
+    background-color: rgba(243, 156, 18, 0.8);
+    border-color: rgba(243, 156, 18, 1);
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    #slideshowImage {
+        height: 60vh;
+    }
+    
+    #slideshowPrev,
+    #slideshowNext {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #slideshowImage {
+        height: 50vh;
+    }
+    
+    #slideshowPrev,
+    #slideshowNext {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        left: 10px;
+        right: 10px;
+    }
+}

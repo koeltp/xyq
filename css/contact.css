@@ -1,0 +1,98 @@
+/* 联系页面样式 */
+.contact {
+    margin-bottom: 3rem;
+}
+
+.contact h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.contact-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contact-info {
+    padding: 1rem;
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.qr-codes {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.wechat-qr,
+.douyin-qr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wechat-qr h4,
+.douyin-qr h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.wechat-qr img,
+.douyin-qr img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.wechat-qr img:hover,
+.douyin-qr img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-color: #f39c12;
+}
+
+.wechat-qr p,
+.douyin-qr p {
+    font-size: 1rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .qr-codes {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .wechat-qr img,
+    .douyin-qr img {
+        width: 150px;
+        height: 150px;
+    }
+}
