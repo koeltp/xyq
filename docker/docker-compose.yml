@@ -1,0 +1,9 @@
+version: '3'
+services:
+  xingyiquan:
+    image: registry.cn-shenzhen.aliyuncs.com/tmd/xyq:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - "../data:/usr/share/nginx/html/data"
+    restart: unless-stopped

@@ -1,0 +1,25 @@
+# 排除数据目录，在运行时通过挂载卷映射
+data/
+
+# 排除版本控制目录
+.git/
+.svn/
+
+# 排除IDE和编辑器目录
+.vscode/
+.idea/
+
+# 排除依赖目录
+node_modules/
+
+# 排除构建产物
+build/
+dist/
+
+# 排除日志和临时文件
+logs/
+temp/
+*.log
+
+# 排除Docker相关文件
+docker/

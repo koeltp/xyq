@@ -95,28 +95,27 @@
 
 .lineage-connection {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    position: relative;
 }
 
 .connection-line {
     width: 80%;
     height: 2px;
     background-color: #f39c12;
-    position: relative;
+    margin: 0 auto;
 }
 
 .connection-arrow {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
     width: 0;
     height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 12px solid #f39c12;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #f39c12;
+    margin-top: -2px;
 }
 
 /* 弟子风采样式 */
