@@ -48,8 +48,9 @@
           "thumbnail": "data/images/wuxinquan/五行拳.jpg",
           "content": "劈拳是五行拳之首，对应五行中的金，具有劈砍、下压的特点。本课程将详细讲解劈拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
-            "劈拳基本动作要领",
-            "劈拳发力技巧",
+            "劈拳基本姿势与手型",
+            "劈拳发力技巧与腰背配合",
+            "劈拳的步法要求",
             "劈拳的实战应用",
             "常见错误纠正"
           ]
@@ -62,10 +63,243 @@
           "thumbnail": "data/images/wuxinquan/五行拳.jpg",
           "content": "崩拳是五行拳中的核心拳法，对应五行中的木，具有崩炸、直击的特点。本课程将详细讲解崩拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
-            "崩拳基本动作要领",
-            "崩拳发力技巧",
-            "崩拳的实战应用",
-            "步法与拳法配合"
+            "崩拳基本姿势与拳型",
+            "崩拳发力技巧与蹬地配合",
+            "崩拳的步法要求",
+            "崩拳连击应用",
+            "崩拳的实战技巧"
+          ]
+        },
+        {
+          "id": "five-elements-3",
+          "title": "钻拳教学",
+          "description": "学习五行拳中的钻拳技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "钻拳是五行拳之一，对应五行中的水，具有钻穿、渗透的特点。本课程将详细讲解钻拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "钻拳基本姿势与拳型",
+            "钻拳发力技巧与拧腰配合",
+            "钻拳的步法要求",
+            "钻拳的进攻路线",
+            "钻拳的实战应用"
+          ]
+        },
+        {
+          "id": "five-elements-4",
+          "title": "炮拳教学",
+          "description": "学习五行拳中的炮拳技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "炮拳是五行拳之一，对应五行中的火，具有炮炸、刚猛的特点。本课程将详细讲解炮拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "炮拳基本姿势与拳型",
+            "炮拳发力技巧与肩背配合",
+            "炮拳的步法要求",
+            "炮拳的攻防转换",
+            "炮拳的实战应用"
+          ]
+        },
+        {
+          "id": "five-elements-5",
+          "title": "横拳教学",
+          "description": "学习五行拳中的横拳技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "横拳是五行拳之一，对应五行中的土，具有横拨、化解的特点。本课程将详细讲解横拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "横拳基本姿势与拳型",
+            "横拳发力技巧与腰胯配合",
+            "横拳的步法要求",
+            "横拳的化打技巧",
+            "横拳的实战应用"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "twelve-animals",
+      "name": "十二形拳教学",
+      "description": "详解形意拳十二形拳的基本动作和要领。",
+      "videos": [
+        {
+          "id": "twelve-animals-1",
+          "title": "龙形拳教学",
+          "description": "学习十二形拳中的龙形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "龙形拳是十二形拳之首，模仿龙的形态和特性，具有矫健、灵活、变化多端的特点。本课程将详细讲解龙形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "龙形拳基本姿势与身法",
+            "龙形拳发力技巧",
+            "龙形拳的步法要求",
+            "龙形搜骨之法",
+            "龙形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-2",
+          "title": "虎形拳教学",
+          "description": "学习十二形拳中的虎形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "虎形拳是十二形拳中的重要拳法，模仿虎的形态和特性，具有威猛、刚猛、扑食的特点。本课程将详细讲解虎形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "虎形拳基本姿势与身法",
+            "虎形拳发力技巧",
+            "虎形拳的步法要求",
+            "虎形扑食之法",
+            "虎形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-3",
+          "title": "熊形拳教学",
+          "description": "学习十二形拳中的熊形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "熊形拳是十二形拳之一，模仿熊的形态和特性，具有沉稳、刚劲、甩膀的特点。本课程将详细讲解熊形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "熊形拳基本姿势与身法",
+            "熊形拳发力技巧",
+            "熊形拳的步法要求",
+            "熊形膀劲之法",
+            "熊形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-4",
+          "title": "蛇形拳教学",
+          "description": "学习十二形拳中的蛇形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "蛇形拳是十二形拳之一，模仿蛇的形态和特性，具有柔软、灵活、缠绕的特点。本课程将详细讲解蛇形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "蛇形拳基本姿势与身法",
+            "蛇形拳发力技巧",
+            "蛇形拳的步法要求",
+            "蛇形缠绕之法",
+            "蛇形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-5",
+          "title": "骀形拳教学",
+          "description": "学习十二形拳中的骀形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "骀形拳是十二形拳之一，模仿骀（扬子鳄）的形态和特性，具有凶猛、侧面攻击的特点。本课程将详细讲解骀形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "骀形拳基本姿势与身法",
+            "骀形拳发力技巧",
+            "骀形拳的步法要求",
+            "骀形侧击之法",
+            "骀形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-6",
+          "title": "鹰形拳教学",
+          "description": "学习十二形拳中的鹰形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "鹰形拳是十二形拳之一，模仿鹰的形态和特性，具有抓拿、准狠、俯冲的特点。本课程将详细讲解鹰形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "鹰形拳基本姿势与身法",
+            "鹰形拳发力技巧",
+            "鹰形拳的步法要求",
+            "鹰形抓拿之法",
+            "鹰形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-7",
+          "title": "鹞形拳教学",
+          "description": "学习十二形拳中的鹞形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "鹞形拳是十二形拳之一，模仿鹞子的形态和特性，具有轻灵、翻身、入林的特点。本课程将详细讲解鹞形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "鹞形拳基本姿势与身法",
+            "鹞形拳发力技巧",
+            "鹞形拳的步法要求",
+            "鹞形翻身之法",
+            "鹞形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-8",
+          "title": "马形拳教学",
+          "description": "学习十二形拳中的马形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "马形拳是十二形拳之一，模仿马的形态和特性，具有冲劲、弹跳、撞靠的特点。本课程将详细讲解马形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "马形拳基本姿势与身法",
+            "马形拳发力技巧",
+            "马形拳的步法要求",
+            "马形冲撞之法",
+            "马形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-9",
+          "title": "猴形拳教学",
+          "description": "学习十二形拳中的猴形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "猴形拳是十二形拳之一，模仿猴的形态和特性，具有灵活、敏捷、攀爬的特点。本课程将详细讲解猴形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "猴形拳基本姿势与身法",
+            "猴形拳发力技巧",
+            "猴形拳的步法要求",
+            "猴形灵活之法",
+            "猴形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-10",
+          "title": "鸡形拳教学",
+          "description": "学习十二形拳中的鸡形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "鸡形拳是十二形拳之一，模仿鸡的形态和特性，具有独立、争斗、快捷的特点。本课程将详细讲解鸡形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "鸡形拳基本姿势与身法",
+            "鸡形拳发力技巧",
+            "鸡形拳的步法要求",
+            "鸡形独立之法",
+            "鸡形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-11",
+          "title": "燕形拳教学",
+          "description": "学习十二形拳中的燕形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "燕形拳是十二形拳之一，模仿燕子的形态和特性，具有抄水、快捷、灵巧的特点。本课程将详细讲解燕形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "燕形拳基本姿势与身法",
+            "燕形拳发力技巧",
+            "燕形拳的步法要求",
+            "燕形抄水之法",
+            "燕形拳的实战应用"
+          ]
+        },
+        {
+          "id": "twelve-animals-12",
+          "title": "鼍形拳教学",
+          "description": "学习十二形拳中的鼍形技法。",
+          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
+          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "content": "鼍形拳是十二形拳之一，模仿鼍（扬子鳄/猪婆龙）的形态和特性，具有摆尾、侧击、凶猛的特点。本课程将详细讲解鼍形拳的基本动作、发力方法和实战应用。",
+          "keyPoints": [
+            "鼍形拳基本姿势与身法",
+            "鼍形拳发力技巧",
+            "鼍形拳的步法要求",
+            "鼍形摆尾之法",
+            "鼍形拳的实战应用"
           ]
         }
       ]
