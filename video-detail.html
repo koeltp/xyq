@@ -47,28 +47,37 @@
     </header>
 
     <main>
-        <section class="video-detail">
-            <div class="video-detail-container">
-                <div class="video-player">
-                    <video controls id="videoPlayer">
-                        <source src="" type="video/mp4" id="videoSource">
-                        您的浏览器不支持视频播放。
-                    </video>
-                </div>
-                <div class="video-detail-info">
-                    <h2 id="videoTitle">加载中...</h2>
-                    <p id="videoDescription"></p>
-                    
-                    <div class="video-content">
-                        <h3>课程内容</h3>
-                        <p id="videoContent"></p>
+        <section class="videos-container">
+            <div class="videos-sidebar">
+                <ul class="category-nav" id="categoryNav">
+                    <!-- 分类导航将通过JavaScript动态生成 -->
+                </ul>
+            </div>
+            <div class="videos-main">
+                <section class="video-detail">
+                    <div class="video-detail-container">
+                        <div class="video-player">
+                            <video controls id="videoPlayer">
+                                <source src="" type="video/mp4" id="videoSource">
+                                您的浏览器不支持视频播放。
+                            </video>
+                        </div>
+                        <div class="video-detail-info">
+                            <h2 id="videoTitle">加载中...</h2>
+                            <p id="videoDescription"></p>
+                            
+                            <div class="video-content">
+                                <h3>课程内容</h3>
+                                <p id="videoContent"></p>
+                            </div>
+                            
+                            <div class="video-keypoints">
+                                <h3>重点内容</h3>
+                                <ul id="videoKeyPoints"></ul>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="video-keypoints">
-                        <h3>重点内容</h3>
-                        <ul id="videoKeyPoints"></ul>
-                    </div>
-                </div>
+                </section>
             </div>
         </section>
     </main>

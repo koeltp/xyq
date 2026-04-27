@@ -47,10 +47,18 @@
     </header>
 
     <main>
-        <section class="videos">
-            <h3>教学视频</h3>
-            <div class="video-grid" id="videoGrid">
-                <!-- 视频分类将通过JavaScript动态生成 -->
+        <section class="videos-container">
+            <div class="videos-sidebar">
+                
+                <ul class="category-nav" id="categoryNav">
+                    <!-- 分类导航将通过JavaScript动态生成 -->
+                </ul>
+            </div>
+            <div class="videos-main">
+                <h3 id="categoryTitle">教学视频</h3>
+                <div class="video-grid" id="videoGrid">
+                    <!-- 视频列表将通过JavaScript动态生成 -->
+                </div>
             </div>
         </section>
     </main>

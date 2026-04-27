@@ -20,10 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             // 在所有分类中查找对应的视频
             let video = null;
+            let currentCategory = null;
+            
             for (const category of data.categories) {
                 const foundVideo = category.videos.find(v => v.id === videoId);
                 if (foundVideo) {
                     video = foundVideo;
+                    currentCategory = category;
                     break;
                 }
             }
@@ -32,6 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('videoTitle').textContent = '视频未找到';
                 return;
             }
+            
+            // 生成分类导航
+            generateCategoryNav(data.categories, currentCategory.id);
             
             // 更新页面内容
             document.getElementById('videoTitle').textContent = video.title;
@@ -62,4 +68,33 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('加载视频数据失败:', error);
             document.getElementById('videoTitle').textContent = '加载失败';
         });
+    
+    // 生成分类导航
+    function generateCategoryNav(categories, activeCategoryId) {
+        const categoryNav = document.getElementById('categoryNav');
+        categoryNav.innerHTML = '';
+        
+        categories.forEach(category => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = `videos.html#${category.id}`;
+            a.textContent = category.name;
+            a.dataset.categoryId = category.id;
+            
+            // 添加激活状态
+            if (category.id === activeCategoryId) {
+                a.classList.add('active');
+            }
+            
+            // 添加点击事件
+            a.addEventListener('click', function(e) {
+                e.preventDefault();
+                const categoryId = this.dataset.categoryId;
+                window.location.href = `videos.html#${categoryId}`;
+            });
+            
+            li.appendChild(a);
+            categoryNav.appendChild(li);
+        });
+    }
 });

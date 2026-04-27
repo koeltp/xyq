@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 子页面对应的父页面映射
     const pageMapping = {
-        'category-videos.html': 'videos.html',
-        'video-detail.html': 'videos.html',
-        'gallery-category.html': 'gallery.html'
+        'video-detail.html': 'videos.html'
     };
     
     // 获取应该高亮的页面
