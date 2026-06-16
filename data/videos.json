@@ -179,7 +179,6 @@
             "𩿡形实战应用"
           ]
         },
-        
         {
           "id": "twelve-animals-6",
           "title": "活步燕形",
@@ -332,6 +331,20 @@
             "劲力运用时机把握",
             "劲力运用动作衔接",
             "实战对练演示"
+          ]
+        },
+        {
+          "id": "applications-4",
+          "title": "实战对练四",
+          "description": "李太平与邹智鑫对练",
+          "videoSrc": "data/videos/shizhan/李太平与邹智鑫对练.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "李太平与邹智鑫的实战对练，展示形意拳在实战中的基本应用技巧。",
+          "keyPoints": [
+            "后腿发力",
+            "前腿配合",
+            "攻防转换时机",
+            "劲力运用原理"
           ]
         }
       ]

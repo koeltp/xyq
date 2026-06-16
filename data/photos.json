@@ -82,6 +82,24 @@
           "src": "data/images/zhanzhuang/指导弟子邹智鑫.jpg",
           "alt": "指导弟子",
           "caption": "张老师指导弟子邹智鑫站桩"
+        },
+        {
+          "id": "bs-6",
+          "src": "data/images/master/常宗坤.jpg",
+          "alt": "常宗坤在海拔7546M的慕士塔格站桩",
+          "caption": "常宗坤在海拔7546M的慕士塔格站桩"
+        },
+        {
+          "id": "bs-7",
+          "src": "data/images/zhanzhuang/张老师在冈仁波齐站桩1.jpg",
+          "alt": "张老师在海拔5200米处的冈仁波齐站桩",
+          "caption": "张老师在海拔5200米处的冈仁波齐站桩"
+        },
+        {
+          "id": "bs-8",
+          "src": "data/images/zhanzhuang/张老师在冈仁波齐站桩2.jpg",
+          "alt": "张老师在海拔5200米处的冈仁波齐站桩",
+          "caption": "张老师在海拔5200米处的冈仁波齐站桩"
         }
       ]
     },
