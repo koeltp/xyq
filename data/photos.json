@@ -234,12 +234,14 @@
           "src": "data/images/shierxing/吕老师指导张老师蛇形桩2.jpg",
           "alt": "吕老师指导张老师蛇形桩2",
           "caption": "吕老师指导张老师蛇形桩2"
-        },{
+        },
+        {
           "id": "zz-8",
           "src": "data/images/shierxing/𩿡形桩.jpg",
           "alt": "张老师演示𩿡形桩",
           "caption": "张老师演示𩿡形桩"
-        },{
+        },
+        {
           "id": "zz-9",
           "src": "data/images/shierxing/𩿡形桩2.jpg",
           "alt": "张老师演示𩿡形桩2",
@@ -302,51 +304,51 @@
       "description": "形意拳拜师仪式及传承记录",
       "photos": [
         {
+          "id": "sx-1",
+          "src": "data/images/baishi/龙虎先师之位.jpg",
+          "alt": "吕太敏先生书写龙虎先师之位",
+          "caption": "吕太敏先生书写龙虎先师之位"
+        },
+        {
           "id": "master-1",
           "src": "data/images/baishi/吕太敏书写达摩.jpg",
-          "alt": "吕老书写达摩祖师",
-          "caption": "吕老书写达摩祖师"
+          "alt": "吕太敏先生书写达摩祖师之位",
+          "caption": "吕太敏先生书写达摩祖师之位"
         },
         {
           "id": "master-2",
           "src": "data/images/baishi/吕太敏书写岳武穆之位.jpg",
-          "alt": "吕老书写岳武穆王",
-          "caption": "吕老书写岳武穆王"
-        },
-        {
-          "id": "sx-1",
-          "src": "data/images/baishi/龙虎先师之位.jpg",
-          "alt": "龙虎先师之位",
-          "caption": "龙虎先师之位"
+          "alt": "吕太敏先生书写岳武穆之位",
+          "caption": "吕太敏先生书写岳武穆之位"
         },
         {
           "id": "bais-1",
           "src": "data/images/baishi/吕太敏书写尚云祥师祖之位.jpg",
-          "alt": "吕老书写尚云祥师祖之位",
-          "caption": "吕老书写尚云祥师祖之位"
+          "alt": "吕太敏先生书写尚云祥师祖之位",
+          "caption": "吕太敏先生书写尚云祥师祖之位"
         },
         {
           "id": "master-3",
           "src": "data/images/baishi/吕太敏书写李文彬.jpg",
-          "alt": "吕老书写李文彬师爷",
-          "caption": "吕老书写李文彬师爷"
+          "alt": "吕太敏先生书写李文彬师爷之位",
+          "caption": "吕太敏先生书写李文彬师爷之位"
         },
         {
           "id": "master-9",
           "src": "data/images/baishi/吕太敏写形意归真.jpg",
-          "alt": "吕太敏写形意归真",
-          "caption": "吕太敏老师书写形意归真"
+          "alt": "吕太敏先生书写形意归真",
+          "caption": "吕太敏先生书写形意归真"
         },
         {
           "id": "bs-3",
           "src": "data/images/baishi/张午生拜师吕太敏先生3.jpg",
-          "alt": "张午生拜师吕太敏先生3",
+          "alt": "张午生拜师吕太敏先生",
           "caption": "张午生拜师吕太敏先生"
         },
         {
           "id": "bs-2",
           "src": "data/images/baishi/张午生拜师吕太敏先生2.jpg",
-          "alt": "张午生拜师吕太敏先生2",
+          "alt": "张午生拜师吕太敏先生",
           "caption": "张午生拜师吕太敏先生"
         },
         {
@@ -364,56 +366,56 @@
         {
           "id": "bs-8",
           "src": "data/images/baishi/P7180187.JPG",
-          "alt": "刘轶恺拜师",
-          "caption": "刘轶恺拜师"
+          "alt": "刘轶恺拜师张午生先生",
+          "caption": "刘轶恺拜师张午生先生"
         },
         {
           "id": "bs-9",
           "src": "data/images/baishi/P7180189.JPG",
-          "alt": "刘轶恺拜师",
-          "caption": "刘轶恺拜师"
+          "alt": "刘轶恺拜师张午生先生",
+          "caption": "刘轶恺拜师张午生先生"
         },
         {
           "id": "bs-10",
           "src": "data/images/baishi/P7180191.JPG",
-          "alt": "刘轶恺拜师",
-          "caption": "刘轶恺拜师"
+          "alt": "刘轶恺拜师张午生先生",
+          "caption": "刘轶恺拜师张午生先生"
         },
         {
           "id": "bs-11",
           "src": "data/images/baishi/P7180193.JPG",
-          "alt": "李太平拜师",
-          "caption": "李太平拜师"
+          "alt": "李太平拜师张午生先生",
+          "caption": "李太平拜师张午生先生"
         },
         {
           "id": "bs-12",
           "src": "data/images/baishi/P7180197.JPG",
-          "alt": "李太平拜师",
-          "caption": "李太平拜师"
+          "alt": "李太平拜师张午生先生",
+          "caption": "李太平拜师张午生先生"
         },
         {
           "id": "bs-13",
           "src": "data/images/baishi/P7180199.JPG",
-          "alt": "李太平拜师",
-          "caption": "李太平拜师"
+          "alt": "李太平拜师张午生先生",
+          "caption": "李太平拜师张午生先生"
         },
         {
           "id": "bs-14",
           "src": "data/images/baishi/P7180200.JPG",
-          "alt": "刘轶恺和李太平拜师张老师",
-          "caption": "刘轶恺和李太平拜师张老师"
+          "alt": "刘轶恺和李太平拜师张午生先生",
+          "caption": "刘轶恺和李太平拜师张午生先生"
         },
         {
           "id": "bs-15",
           "src": "data/images/baishi/P7180204.JPG",
-          "alt": "刘轶恺拜师",
-          "caption": "刘轶恺拜师"
+          "alt": "刘轶恺拜师张午生先生",
+          "caption": "刘轶恺拜师张午生先生"
         },
         {
           "id": "bs-16",
           "src": "data/images/baishi/P7180205.JPG",
-          "alt": "刘轶恺拜师",
-          "caption": "刘轶恺拜师"
+          "alt": "刘轶恺拜师张午生先生",
+          "caption": "刘轶恺拜师张午生先生"
         },
         {
           "id": "bs-18",
