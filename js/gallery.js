@@ -117,8 +117,12 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             const photoElement = document.createElement('img');
-            photoElement.src = photo.src;
+            photoElement.dataset.src = photo.src;
             photoElement.alt = photo.alt;
+            photoElement.loading = 'lazy';
+            photoElement.className = 'gallery-lazy';
+            // 使用透明占位图
+            photoElement.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 3"%3E%3C/svg%3E';
 
             const photoInfo = document.createElement('div');
             photoInfo.className = 'gallery-info';
@@ -133,6 +137,34 @@ document.addEventListener('DOMContentLoaded', function() {
             galleryItem.appendChild(photoLink);
 
             galleryGrid.appendChild(galleryItem);
+        });
+
+        // 启动懒加载观察器
+        observeLazyImages();
+    }
+
+    // IntersectionObserver 懒加载
+    let lazyObserver = null;
+    function observeLazyImages() {
+        if (lazyObserver) {
+            lazyObserver.disconnect();
+        }
+        lazyObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    var img = entry.target;
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        img.classList.add('gallery-lazy-loaded');
+                        delete img.dataset.src;
+                    }
+                    lazyObserver.unobserve(img);
+                }
+            });
+        }, { rootMargin: '200px 0px' });
+
+        document.querySelectorAll('.gallery-lazy').forEach(function(img) {
+            lazyObserver.observe(img);
         });
     }
 

@@ -1,36 +1,36 @@
 {
   "categories": [
     {
-      "id": "basic",
-      "name": "基础站桩练习",
+      "id": "zhanzhuang",
+      "name": "站桩功法",
       "description": "形意拳的基础站桩练习，培养内劲和平衡感。",
       "videos": [
         {
-          "id": "basic-stance-1",
-          "title": "三体式站桩",
-          "description": "学习形意拳的基本三体式站桩姿势。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "三体式站桩是形意拳的基本功法，通过正确的站桩姿势可以培养内劲，增强身体的平衡感和稳定性。本课程将详细讲解三体式站桩的基本要领，包括身法、步法、手法和呼吸方法。",
+          "id": "zhanzhuang-1",
+          "title": "站桩功法演示",
+          "description": "张老师演示形意拳站桩功法。",
+          "videoSrc": "data/videos/站桩.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "站桩是形意拳的基本功法，通过正确的站桩姿势可以培养内劲，增强身体的平衡感和稳定性。",
           "keyPoints": [
-            "三体式基本姿势要领",
+            "站桩基本姿势要领",
             "身体重心控制技巧",
             "呼吸调节方法",
             "常见错误纠正"
           ]
         },
         {
-          "id": "basic-stance-2",
-          "title": "站桩呼吸法",
-          "description": "掌握站桩时的呼吸调节方法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "呼吸法是站桩练习的核心，正确的呼吸方法能够促进气血运行，增强内劲。本课程将教授站桩时的呼吸调节技巧，包括腹式呼吸、自然呼吸等方法。",
+          "id": "zhanzhuang-2",
+          "title": "站桩功法演示二",
+          "description": "张老师演示形意拳站桩功法。",
+          "videoSrc": "data/videos/站桩2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "站桩功法的进一步演示，展示更多站桩要领和细节。",
           "keyPoints": [
-            "腹式呼吸方法",
+            "站桩进阶要领",
             "呼吸与动作配合",
-            "呼吸节奏控制",
-            "呼吸对内劲的影响"
+            "内劲培养方法",
+            "站桩注意事项"
           ]
         }
       ]
@@ -44,8 +44,8 @@
           "id": "five-elements-1",
           "title": "劈拳教学",
           "description": "学习五行拳中的劈拳技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "videoSrc": "data/videos/wuxinquan/劈拳.mp4",
+          "thumbnail": "data/videos/logo.png",
           "content": "劈拳是五行拳之首，对应五行中的金，具有劈砍、下压的特点。本课程将详细讲解劈拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
             "劈拳基本姿势与手型",
@@ -59,8 +59,8 @@
           "id": "five-elements-2",
           "title": "崩拳教学",
           "description": "学习五行拳中的崩拳技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "videoSrc": "data/videos/wuxinquan/活步崩拳.mp4",
+          "thumbnail": "data/videos/logo.png",
           "content": "崩拳是五行拳中的核心拳法，对应五行中的木，具有崩炸、直击的特点。本课程将详细讲解崩拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
             "崩拳基本姿势与拳型",
@@ -74,8 +74,8 @@
           "id": "five-elements-3",
           "title": "钻拳教学",
           "description": "学习五行拳中的钻拳技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "videoSrc": "data/videos/wuxinquan/钻拳.mp4",
+          "thumbnail": "data/videos/logo.png",
           "content": "钻拳是五行拳之一，对应五行中的水，具有钻穿、渗透的特点。本课程将详细讲解钻拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
             "钻拳基本姿势与拳型",
@@ -89,8 +89,8 @@
           "id": "five-elements-4",
           "title": "炮拳教学",
           "description": "学习五行拳中的炮拳技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "videoSrc": "data/videos/wuxinquan/炮拳.mp4",
+          "thumbnail": "data/videos/logo.png",
           "content": "炮拳是五行拳之一，对应五行中的火，具有炮炸、刚猛的特点。本课程将详细讲解炮拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
             "炮拳基本姿势与拳型",
@@ -104,8 +104,8 @@
           "id": "five-elements-5",
           "title": "横拳教学",
           "description": "学习五行拳中的横拳技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
+          "videoSrc": "data/videos/wuxinquan/横拳.mp4",
+          "thumbnail": "data/videos/logo.png",
           "content": "横拳是五行拳之一，对应五行中的土，具有横拨、化解的特点。本课程将详细讲解横拳的基本动作、发力方法和实战应用。",
           "keyPoints": [
             "横拳基本姿势与拳型",
@@ -113,6 +113,20 @@
             "横拳的步法要求",
             "横拳的化打技巧",
             "横拳的实战应用"
+          ]
+        },
+        {
+          "id": "five-elements-6",
+          "title": "活步钻拳炮拳横拳",
+          "description": "活步练习钻拳、炮拳和横拳。",
+          "videoSrc": "data/videos/wuxinquan/活步钻拳炮拳横拳.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "将钻拳、炮拳和横拳结合活步进行练习，提升步法与拳法的协调配合能力。",
+          "keyPoints": [
+            "活步与拳法的配合",
+            "步法移动要领",
+            "拳法衔接技巧",
+            "整体协调训练"
           ]
         }
       ]
@@ -124,26 +138,11 @@
       "videos": [
         {
           "id": "twelve-animals-1",
-          "title": "龙形拳教学",
-          "description": "学习十二形拳中的龙形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "龙形拳是十二形拳之首，模仿龙的形态和特性，具有矫健、灵活、变化多端的特点。本课程将详细讲解龙形拳的基本动作、发力方法和实战应用。",
-          "keyPoints": [
-            "龙形拳基本姿势与身法",
-            "龙形拳发力技巧",
-            "龙形拳的步法要求",
-            "龙形搜骨之法",
-            "龙形拳的实战应用"
-          ]
-        },
-        {
-          "id": "twelve-animals-2",
-          "title": "虎形拳教学",
-          "description": "学习十二形拳中的虎形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "虎形拳是十二形拳中的重要拳法，模仿虎的形态和特性，具有威猛、刚猛、扑食的特点。本课程将详细讲解虎形拳的基本动作、发力方法和实战应用。",
+          "title": "虎形发力",
+          "description": "学习十二形拳中的虎形发力技法。",
+          "videoSrc": "data/videos/shierxing/虎形发力.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "虎形拳是十二形拳中的重要拳法，模仿虎的形态和特性，具有威猛、刚猛、扑食的特点。本课程详细讲解虎形拳的发力方法。",
           "keyPoints": [
             "虎形拳基本姿势与身法",
             "虎形拳发力技巧",
@@ -153,169 +152,153 @@
           ]
         },
         {
+          "id": "twelve-animals-2",
+          "title": "虎形发力二",
+          "description": "虎形发力的进一步练习。",
+          "videoSrc": "data/videos/shierxing/虎形发力2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "虎形拳发力的进阶练习，进一步强化虎形的刚猛发力特点。",
+          "keyPoints": [
+            "虎形发力进阶",
+            "腰背配合技巧",
+            "连续发力方法",
+            "实战发力应用"
+          ]
+        },
+        {
           "id": "twelve-animals-3",
-          "title": "熊形拳教学",
-          "description": "学习十二形拳中的熊形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "熊形拳是十二形拳之一，模仿熊的形态和特性，具有沉稳、刚劲、甩膀的特点。本课程将详细讲解熊形拳的基本动作、发力方法和实战应用。",
+          "title": "𩿡形拳",
+          "description": "学习十二形拳中的𩿡形技法。",
+          "videoSrc": "data/videos/shierxing/𩿡形.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "𩿡形拳是十二形拳之一，具有轻灵、快捷的特点。本课程详细讲解𩿡形拳的基本动作和发力方法。",
           "keyPoints": [
-            "熊形拳基本姿势与身法",
-            "熊形拳发力技巧",
-            "熊形拳的步法要求",
-            "熊形膀劲之法",
-            "熊形拳的实战应用"
+            "𩿡形基本姿势",
+            "𩿡形发力技巧",
+            "𩿡形步法要求",
+            "𩿡形实战应用"
           ]
         },
-        {
-          "id": "twelve-animals-4",
-          "title": "蛇形拳教学",
-          "description": "学习十二形拳中的蛇形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "蛇形拳是十二形拳之一，模仿蛇的形态和特性，具有柔软、灵活、缠绕的特点。本课程将详细讲解蛇形拳的基本动作、发力方法和实战应用。",
-          "keyPoints": [
-            "蛇形拳基本姿势与身法",
-            "蛇形拳发力技巧",
-            "蛇形拳的步法要求",
-            "蛇形缠绕之法",
-            "蛇形拳的实战应用"
-          ]
-        },
-        {
-          "id": "twelve-animals-5",
-          "title": "骀形拳教学",
-          "description": "学习十二形拳中的骀形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "骀形拳是十二形拳之一，模仿骀（扬子鳄）的形态和特性，具有凶猛、侧面攻击的特点。本课程将详细讲解骀形拳的基本动作、发力方法和实战应用。",
-          "keyPoints": [
-            "骀形拳基本姿势与身法",
-            "骀形拳发力技巧",
-            "骀形拳的步法要求",
-            "骀形侧击之法",
-            "骀形拳的实战应用"
-          ]
-        },
+        
         {
           "id": "twelve-animals-6",
-          "title": "鹰形拳教学",
-          "description": "学习十二形拳中的鹰形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "鹰形拳是十二形拳之一，模仿鹰的形态和特性，具有抓拿、准狠、俯冲的特点。本课程将详细讲解鹰形拳的基本动作、发力方法和实战应用。",
+          "title": "活步燕形",
+          "description": "活步练习十二形中的燕形拳。",
+          "videoSrc": "data/videos/wuxinquan/活步燕形.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "燕形拳是十二形拳之一，模仿燕子的形态和特性，具有抄水、快捷、灵巧的特点。活步燕形练习展示燕形的灵活特点和步法要求。",
           "keyPoints": [
-            "鹰形拳基本姿势与身法",
-            "鹰形拳发力技巧",
-            "鹰形拳的步法要求",
-            "鹰形抓拿之法",
-            "鹰形拳的实战应用"
+            "燕形基本身法",
+            "活步练习要领",
+            "燕形抄水技法",
+            "步法协调训练"
           ]
         },
         {
           "id": "twelve-animals-7",
-          "title": "鹞形拳教学",
-          "description": "学习十二形拳中的鹞形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "鹞形拳是十二形拳之一，模仿鹞子的形态和特性，具有轻灵、翻身、入林的特点。本课程将详细讲解鹞形拳的基本动作、发力方法和实战应用。",
+          "title": "活步蛇形",
+          "description": "活步练习十二形中的蛇形拳。",
+          "videoSrc": "data/videos/wuxinquan/活步蛇形.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "蛇形拳是十二形拳之一，模仿蛇的形态和特性，具有柔软、灵活、缠绕的特点。活步蛇形练习展示蛇形的柔软灵活特点。",
           "keyPoints": [
-            "鹞形拳基本姿势与身法",
-            "鹞形拳发力技巧",
-            "鹞形拳的步法要求",
-            "鹞形翻身之法",
-            "鹞形拳的实战应用"
+            "蛇形基本身法",
+            "活步练习要领",
+            "蛇形缠绕技法",
+            "身法步法协调"
           ]
         },
         {
           "id": "twelve-animals-8",
-          "title": "马形拳教学",
-          "description": "学习十二形拳中的马形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "马形拳是十二形拳之一，模仿马的形态和特性，具有冲劲、弹跳、撞靠的特点。本课程将详细讲解马形拳的基本动作、发力方法和实战应用。",
+          "title": "活步鸡形",
+          "description": "活步练习十二形中的鸡形拳。",
+          "videoSrc": "data/videos/wuxinquan/活步鸡形.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "鸡形拳是十二形拳之一，模仿鸡的形态和特性，具有独立、争斗、快捷的特点。活步鸡形练习展示鸡形的独立争斗特点。",
           "keyPoints": [
-            "马形拳基本姿势与身法",
-            "马形拳发力技巧",
-            "马形拳的步法要求",
-            "马形冲撞之法",
-            "马形拳的实战应用"
+            "鸡形基本身法",
+            "活步练习要领",
+            "鸡形独立技法",
+            "步法快速移动"
           ]
         },
         {
           "id": "twelve-animals-9",
-          "title": "猴形拳教学",
-          "description": "学习十二形拳中的猴形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "猴形拳是十二形拳之一，模仿猴的形态和特性，具有灵活、敏捷、攀爬的特点。本课程将详细讲解猴形拳的基本动作、发力方法和实战应用。",
+          "title": "活步鹰捉和臂拳",
+          "description": "活步练习十二形中的鹰形捉拿和臂拳。",
+          "videoSrc": "data/videos/wuxinquan/活步鹰捉和臂拳.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "鹰形拳是十二形拳之一，模仿鹰的形态和特性，具有抓拿、准狠、俯冲的特点。活步鹰捉和臂拳练习展示鹰形的抓拿特点和臂拳的发力方法。",
           "keyPoints": [
-            "猴形拳基本姿势与身法",
-            "猴形拳发力技巧",
-            "猴形拳的步法要求",
-            "猴形灵活之法",
-            "猴形拳的实战应用"
+            "鹰捉基本技法",
+            "臂拳发力方法",
+            "活步配合要领",
+            "抓拿与打击结合"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bushou",
+      "name": "步法手法",
+      "description": "形意拳基本步法和手法教学。",
+      "videos": [
+        {
+          "id": "bushou-1",
+          "title": "槐虫步",
+          "description": "学习形意拳的槐虫步基本步法。",
+          "videoSrc": "data/videos/bushou/槐虫步.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "槐虫步是形意拳的核心步法之一，通过垫步跟步实现快速移动，是形意拳实战中的重要步法。",
+          "keyPoints": [
+            "槐虫步基本动作",
+            "垫步跟步要领",
+            "步法与身法配合",
+            "步法练习要点"
           ]
         },
         {
-          "id": "twelve-animals-10",
-          "title": "鸡形拳教学",
-          "description": "学习十二形拳中的鸡形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "鸡形拳是十二形拳之一，模仿鸡的形态和特性，具有独立、争斗、快捷的特点。本课程将详细讲解鸡形拳的基本动作、发力方法和实战应用。",
+          "id": "bushou-2",
+          "title": "槐虫步用法",
+          "description": "槐虫步在实战中的应用方法。",
+          "videoSrc": "data/videos/bushou/槐虫步用法.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "槐虫步的实战应用，讲解如何在实战中运用槐虫步进行攻防移动。",
           "keyPoints": [
-            "鸡形拳基本姿势与身法",
-            "鸡形拳发力技巧",
-            "鸡形拳的步法要求",
-            "鸡形独立之法",
-            "鸡形拳的实战应用"
+            "槐虫步实战应用",
+            "进攻步法配合",
+            "防守步法移动",
+            "攻防转换技巧"
           ]
         },
         {
-          "id": "twelve-animals-11",
-          "title": "燕形拳教学",
-          "description": "学习十二形拳中的燕形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "燕形拳是十二形拳之一，模仿燕子的形态和特性，具有抄水、快捷、灵巧的特点。本课程将详细讲解燕形拳的基本动作、发力方法和实战应用。",
+          "id": "bushou-3",
+          "title": "槐虫步练法",
+          "description": "槐虫步的基本练习方法。",
+          "videoSrc": "data/videos/bushou/槐虫步练法.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "槐虫步的基本练习方法，从基础动作到连贯练习的系统训练。",
           "keyPoints": [
-            "燕形拳基本姿势与身法",
-            "燕形拳发力技巧",
-            "燕形拳的步法要求",
-            "燕形抄水之法",
-            "燕形拳的实战应用"
-          ]
-        },
-        {
-          "id": "twelve-animals-12",
-          "title": "鼍形拳教学",
-          "description": "学习十二形拳中的鼍形技法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "鼍形拳是十二形拳之一，模仿鼍（扬子鳄/猪婆龙）的形态和特性，具有摆尾、侧击、凶猛的特点。本课程将详细讲解鼍形拳的基本动作、发力方法和实战应用。",
-          "keyPoints": [
-            "鼍形拳基本姿势与身法",
-            "鼍形拳发力技巧",
-            "鼍形拳的步法要求",
-            "鼍形摆尾之法",
-            "鼍形拳的实战应用"
+            "槐虫步基础练习",
+            "动作要领详解",
+            "常见错误纠正",
+            "连贯练习方法"
           ]
         }
       ]
     },
     {
       "id": "applications",
-      "name": "实战应用技巧",
+      "name": "实战应用",
       "description": "学习形意拳在实战中的应用方法和技巧。",
       "videos": [
         {
           "id": "applications-1",
-          "title": "近身短打",
-          "description": "学习形意拳的近身短打技巧。",
+          "title": "实战对练一",
+          "description": "形意拳实战对练演示。",
           "videoSrc": "data/videos/shizhan/WeChat_20190327210652.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "形意拳的实战应用注重近身短打，以快打慢，以刚克刚。本课程将讲解形意拳在实战中的基本应用技巧，包括步法移动、攻防转换、劲力运用等核心内容。",
+          "thumbnail": "data/videos/logo.png",
+          "content": "形意拳的实战应用注重近身短打，以快打慢，以刚克刚。本视频展示形意拳在实战中的基本应用技巧。",
           "keyPoints": [
             "近身短打基本技巧",
             "步法移动方法",
@@ -325,24 +308,25 @@
         },
         {
           "id": "applications-2",
-          "title": "攻防转换",
-          "description": "掌握形意拳的攻防转换技巧。",
+          "title": "实战对练二",
+          "description": "形意拳攻防转换技巧。",
           "videoSrc": "data/videos/shizhan/WeChat_20190327210707.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "攻防转换是形意拳实战中的关键技巧，要求在攻防之间快速切换，保持主动。本课程将详细讲解攻防转换的基本原理和实用技巧。",
+          "thumbnail": "data/videos/logo.png",
+          "content": "攻防转换是形意拳实战中的关键技巧，要求在攻防之间快速切换，保持主动。",
           "keyPoints": [
             "攻防转换基本原理",
             "攻防时机把握",
             "攻防动作衔接",
             "实战对练演示"
           ]
-        },{
+        },
+        {
           "id": "applications-3",
-          "title": "劲力运用",
-          "description": "掌握形意拳的劲力运用技巧。",
+          "title": "实战对练三",
+          "description": "形意拳劲力运用技巧。",
           "videoSrc": "data/videos/shizhan/WeChat_20190327210723.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "劲力运用是形意拳实战中的关键技巧，要求在劲力之间快速切换，保持主动。本课程将详细讲解劲力运用的基本原理和实用技巧。",
+          "thumbnail": "data/videos/logo.png",
+          "content": "劲力运用是形意拳实战中的关键技巧，要求在劲力之间快速切换，保持主动。",
           "keyPoints": [
             "劲力运用基本原理",
             "劲力运用时机把握",
@@ -360,10 +344,10 @@
         {
           "id": "weapons-1",
           "title": "形意刀法",
-          "description": "学习形意拳的刀法技巧。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "形意刀法是形意拳器械训练的重要内容，通过刀法训练可以进一步理解形意拳的劲力原理。本课程将讲解形意刀法的基本动作和运用技巧。",
+          "description": "吕太敏老师演示形意刀法。",
+          "videoSrc": "data/videos/qixie/吕太敏先生演示形意刀.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "形意刀法是形意拳器械训练的重要内容，通过刀法训练可以进一步理解形意拳的劲力原理。",
           "keyPoints": [
             "形意刀法基本动作",
             "刀法劲力运用",
@@ -373,86 +357,183 @@
         },
         {
           "id": "weapons-2",
-          "title": "形意枪法",
-          "description": "学习形意拳的枪法技巧。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "形意枪法是形意拳器械训练的核心内容，枪法训练能够提高身体的协调性和控制能力。本课程将讲解形意枪法的基本动作和运用技巧。",
+          "title": "形意刀法",
+          "description": "吕太敏老师演示形意刀法。",
+          "videoSrc": "data/videos/qixie/吕太敏形意刀.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "形意刀法是形意拳器械训练的重要内容，通过刀法训练可以进一步理解形意拳的劲力原理。",
+          "keyPoints": [
+            "形意刀法基本动作",
+            "刀法劲力运用",
+            "刀法与拳法关系",
+            "安全注意事项"
+          ]
+        },
+        {
+          "id": "weapons-3",
+          "title": "形意枪基本功",
+          "description": "形意枪法基本功练习。",
+          "videoSrc": "data/videos/qixie/形意枪基本功.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "形意枪法是形意拳器械训练的核心内容，枪法训练能够提高身体的协调性和控制能力。",
           "keyPoints": [
             "形意枪法基本动作",
             "枪法劲力运用",
             "枪法与拳法关系",
             "实战应用技巧"
           ]
+        },
+        {
+          "id": "weapons-4",
+          "title": "形意棍",
+          "description": "形意棍法演示。",
+          "videoSrc": "data/videos/qixie/形意棍.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "形意棍法是形意拳器械训练的重要内容，棍法练习有助于理解长兵器的运用原理。",
+          "keyPoints": [
+            "形意棍法基本动作",
+            "棍法劲力运用",
+            "棍法与拳法关系",
+            "长兵器运用原理"
+          ]
+        },
+        {
+          "id": "weapons-5",
+          "title": "大杆基本功",
+          "description": "大杆基本功练习。",
+          "videoSrc": "data/videos/qixie/大杆基本功.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "大杆是形意拳器械训练的基础，通过大杆练习可以培养整体劲力和腰背力量。",
+          "keyPoints": [
+            "大杆基本握法",
+            "大杆基本动作",
+            "整体劲力培养",
+            "腰背力量训练"
+          ]
+        },
+        {
+          "id": "weapons-6",
+          "title": "大杆基本功二",
+          "description": "大杆基本功进阶练习。",
+          "videoSrc": "data/videos/qixie/大杆基本功2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "大杆基本功的进阶练习，进一步提升整体劲力和控制能力。",
+          "keyPoints": [
+            "大杆进阶动作",
+            "劲力控制训练",
+            "连续动作练习",
+            "大杆与拳法结合"
+          ]
         }
       ]
     },
     {
-      "id": "advanced-forms",
-      "name": "高级套路练习",
+      "id": "taolu",
+      "name": "套路练习",
       "description": "形意拳高级套路的练习方法和要点。",
       "videos": [
         {
-          "id": "advanced-forms-1",
-          "title": "连环拳",
-          "description": "学习形意拳的连环拳套路。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "连环拳是形意拳的高级套路，融合了五行拳和十二形拳的精髓，动作连贯流畅，攻防含义丰富。本课程将详细讲解连环拳的套路练习方法。",
+          "id": "taolu-1",
+          "title": "五形连环拳",
+          "description": "学习形意拳的五形连环拳套路。",
+          "videoSrc": "data/videos/taolu/五形连环拳.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "五形连环拳是形意拳的经典套路，将五行拳连贯串联，动作衔接流畅，攻防含义丰富。",
           "keyPoints": [
-            "连环拳套路结构",
+            "五形连环拳套路结构",
             "动作衔接技巧",
             "攻防含义解析",
             "套路练习要点"
           ]
         },
         {
-          "id": "advanced-forms-2",
-          "title": "杂式锤",
-          "description": "学习形意拳的杂式锤套路。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "杂式锤是形意拳的进阶套路，包含多种拳法和步法的组合，动作变化丰富。本课程将详细讲解杂式锤的套路练习方法和要点。",
+          "id": "taolu-3",
+          "title": "五形连环拳二",
+          "description": "五形连环拳的进一步练习。",
+          "videoSrc": "data/videos/taolu/五形连环拳2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "五形连环拳的进阶练习，进一步提升套路的熟练度和动作质量。",
           "keyPoints": [
-            "杂式锤套路结构",
-            "拳法组合技巧",
-            "步法变化方法",
+            "套路熟练度提升",
+            "动作质量优化",
+            "劲力贯通训练",
+            "整体协调练习"
+          ]
+        },
+        {
+          "id": "taolu-2",
+          "title": "五形连环拳三",
+          "description": "学习形意拳的五形连环拳三",
+          "videoSrc": "data/videos/taolu/五形连环拳3.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "五形连环拳是形意拳的进阶套路，融合了圈法变化，动作更加丰富多变。",
+          "keyPoints": [
+            "五形连环拳套路结构",
+            "圈法变化技巧",
+            "步法配合要领",
             "套路练习要点"
+          ]
+        },
+        {
+          "id": "taolu-4",
+          "title": "转九宫",
+          "description": "学习形意拳的转九宫套路。",
+          "videoSrc": "data/videos/taolu/转九宫.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "转九宫是形意拳的高级套路，融合了方位变化和拳法技巧，训练身法的灵活性。",
+          "keyPoints": [
+            "转九宫套路结构",
+            "方位变化技巧",
+            "拳法与步法配合",
+            "套路练习要点"
+          ]
+        },
+        {
+          "id": "taolu-5",
+          "title": "转九宫二",
+          "description": "转九宫的进一步练习。",
+          "videoSrc": "data/videos/taolu/转九宫2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "转九宫的进阶练习，进一步提升方位变化和拳法的协调能力。",
+          "keyPoints": [
+            "转九宫进阶要领",
+            "方位变化熟练度",
+            "拳法衔接训练",
+            "整体协调练习"
+          ]
+        },
+        {
+          "id": "taolu-6",
+          "title": "吕老师形意自选拳",
+          "description": "吕老师形意自选拳",
+          "videoSrc": "data/videos/taolu/吕太敏先生形意自选拳.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "吕老师形意自选拳",
+          "keyPoints": [
+            "形意自选拳套路结构",
+            "方位变化技巧",
+            "拳法与步法配合"
           ]
         }
       ]
     },
     {
-      "id": "internal-energy",
-      "name": "内功训练",
-      "description": "形意拳内功修炼方法和呼吸技巧。",
+      "id": "bisai",
+      "name": "比赛",
+      "description": "吕太敏老师参加的形意拳比赛",
       "videos": [
         {
-          "id": "internal-energy-1",
-          "title": "丹田呼吸",
-          "description": "学习形意拳的丹田呼吸方法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "丹田呼吸是形意拳内功训练的核心方法，通过特定的呼吸方法和意念引导，培养内劲，增强身体的内在力量。本课程将详细讲解丹田呼吸的基本方法。",
+          "id": "bisai-1",
+          "title": "吕老师参加的形意拳比赛",
+          "description": "吕老师在1995年漳州第一届国际形意拳比赛上的精彩表演。",
+          "videoSrc": "data/videos/bisai/吕太敏五形拳比赛.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "1995年漳州第一届国际形意拳比赛尚派形意拳名家吕太敏表演形意拳比赛。该片段核心演示了尚派形意拳的'槐虫步'（垫步跟步）与'三体式'动态发力，完美展现了起如风、落如箭、刚劲饱满、硬打硬进的传统形意拳实战步法与核心技巧。",
           "keyPoints": [
-            "丹田呼吸基本方法",
-            "意念引导技巧",
-            "呼吸节奏控制",
-            "内劲培养原理"
-          ]
-        },
-        {
-          "id": "internal-energy-2",
-          "title": "内劲训练",
-          "description": "掌握形意拳的内劲训练方法。",
-          "videoSrc": "data/videos/wuxinquan/IMG_1873.mp4",
-          "thumbnail": "data/images/wuxinquan/五行拳.jpg",
-          "content": "内劲训练是形意拳的核心内容，通过特定的训练方法培养内在力量，提高拳法的威力。本课程将详细讲解形意拳的基本内功修炼方法。",
-          "keyPoints": [
-            "内劲基本原理",
-            "内劲训练方法",
-            "内外合一要领",
-            "内劲与拳法配合"
+            "比赛动作",
+            "比赛技巧",
+            "尚派槐虫步",
+            "三体式动态发力"
           ]
         }
       ]

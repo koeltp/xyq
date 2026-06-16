@@ -5,18 +5,17 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - "../data:/usr/share/nginx/html/data"
+      - ../data:/usr/share/nginx/html/data
     restart: unless-stopped
-    networks: 
+    networks:
       - infrastructure
       - saas
       - app
-      
-# ==================== 网络 ====================      
+
 networks:
   infrastructure:
     external: true
   saas:
     external: true
   app:
-    external: true 
+    external: true

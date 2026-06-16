@@ -19,6 +19,8 @@
 
 .videos-sidebar {
     width: 250px;
+    min-width: 250px;
+    flex-shrink: 0;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -38,9 +40,11 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: block;
 }
 
 .category-nav li {
+    display: block;
     margin-bottom: 0.5rem;
 }
 
@@ -123,7 +127,16 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+}
+
+/* 懒加载淡入效果 */
+.gallery-lazy {
+    opacity: 0;
+}
+
+.gallery-lazy-loaded {
+    opacity: 1;
 }
 
 .gallery-item:hover img {

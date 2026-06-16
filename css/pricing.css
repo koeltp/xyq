@@ -10,9 +10,30 @@
     color: #333;
 }
 
+/* 小节标题 */
+.section-subtitle {
+    font-size: 1.4rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 1.5rem !important;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+}
+
+.price-unit {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.price-note {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
 .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
@@ -42,6 +63,10 @@
     margin-bottom: 1rem;
 }
 
+.price--text {
+    font-size: 1.3rem;
+}
+
 .pricing-card ul {
     list-style: none;
     margin-bottom: 2rem;
@@ -51,4 +76,57 @@
     margin-bottom: 0.5rem;
     padding: 0.5rem 0;
     border-bottom: 1px solid #eee;
+}
+
+/* 上课频率 */
+.freq {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #f39c12;
+    margin-bottom: 0.5rem;
+}
+
+.freq-desc {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* 月费参考表 */
+.monthly-ref {
+    margin: 0 auto;
+}
+
+.monthly-ref-table {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.monthly-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.monthly-row:last-child {
+    border-bottom: none;
+}
+
+.monthly-row--header {
+    background-color: #f39c12;
+    color: white;
+    font-weight: bold;
+}
+
+.monthly-row span {
+    text-align: center;
+}
+
+.monthly-note {
+    text-align: center;
+    color: #999;
+    font-size: 0.85rem;
+    margin-top: 0.8rem;
 }

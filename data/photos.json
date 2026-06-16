@@ -1,163 +1,425 @@
 {
   "categories": [
     {
-      "id": "basic-training",
-      "name": "基础训练",
-      "description": "学员们在练习形意拳的基本动作",
+      "id": "zhanzhuang",
+      "name": "站桩功法",
+      "description": "形意拳各种站桩功法展示",
       "photos": [
         {
-          "id": "basic-1",
-          "src": "data/images/basic-training/IMG_3282.JPG",
-          "alt": "基础训练1",
-          "caption": "基本拳法动作"
+          "id": "group-3",
+          "src": "data/images/zhanzhuang/托天.jpg",
+          "alt": "吕老师演示托天功法",
+          "caption": "吕老师演示托天功法"
         },
         {
-          "id": "basic-2",
-          "src": "data/images/basic-training/IMG_3283.JPG",
-          "alt": "基础训练2",
-          "caption": "步法训练"
+          "id": "zz-8",
+          "src": "data/images/zhanzhuang/推窗望月桩.jpg",
+          "alt": "张老师演示推窗望月桩",
+          "caption": "张老师演示推窗望月桩"
         },
         {
-          "id": "basic-3",
-          "src": "data/images/basic-training/IMG_3284.JPG",
-          "alt": "基础训练3",
-          "caption": "拳法组合练习"
+          "id": "zz-9",
+          "src": "data/images/zhanzhuang/铁臂迎门桩.jpg",
+          "alt": "张老师演示铁臂迎门桩",
+          "caption": "张老师演示铁臂迎门桩"
         },
         {
-          "id": "basic-4",
-          "src": "data/images/basic-training/IMG_3285.JPG",
-          "alt": "基础训练4",
-          "caption": "身法练习"
+          "id": "zz-10",
+          "src": "data/images/zhanzhuang/狸猫上树桩.jpg",
+          "alt": "张老师演示狸猫上树桩",
+          "caption": "张老师演示狸猫上树桩"
         },
         {
-          "id": "basic-5",
-          "src": "data/images/basic-training/IMG_3286.JPG",
-          "alt": "基础训练5",
-          "caption": "腿法训练"
+          "id": "zz-11",
+          "src": "data/images/zhanzhuang/三盘落地.jpg",
+          "alt": "吕老师演示三盘落地",
+          "caption": "吕老师演示三盘落地"
         },
         {
-          "id": "basic-6",
-          "src": "data/images/basic-training/IMG_3287.JPG",
-          "alt": "基础训练6",
-          "caption": "平衡练习"
+          "id": "zz-12",
+          "src": "data/images/zhanzhuang/三盘落地2.jpg",
+          "alt": "张老师演示三盘落地",
+          "caption": "张老师演示三盘落地"
+        },
+        {
+          "id": "master-10",
+          "src": "data/images/master/李太平.jpg",
+          "alt": "弟子李太平站桩三体式",
+          "caption": "弟子李太平站桩三体式"
+        },
+        {
+          "id": "master-11",
+          "src": "data/images/zhanzhuang/李太平三体式.jpg",
+          "alt": "弟子李太平站桩三体式2",
+          "caption": "弟子李太平站桩三体式2"
+        },
+        {
+          "id": "master-14",
+          "src": "data/images/master/刘轶恺.jpg",
+          "alt": "弟子刘轶恺站桩三体式",
+          "caption": "弟子刘轶恺站桩三体式"
         },
         {
           "id": "basic-7",
-          "src": "data/images/basic-training/zhanzhuang.jpg",
-          "alt": "基础训练7",
+          "src": "data/images/wuxinquan/zhanzhuang.jpg",
+          "alt": "站桩练习",
           "caption": "站桩练习"
         },
         {
           "id": "basic-8",
-          "src": "data/images/basic-training/zhanzhuang1.jpg",
-          "alt": "基础训练8",
+          "src": "data/images/wuxinquan/zhanzhuang1.jpg",
+          "alt": "站桩练习2",
           "caption": "站桩练习"
         },
         {
           "id": "basic-9",
-          "src": "data/images/basic-training/zhanzhuang2.jpg",
-          "alt": "基础训练9",
+          "src": "data/images/wuxinquan/zhanzhuang2.jpg",
+          "alt": "站桩练习3",
           "caption": "站桩练习"
+        },
+        {
+          "id": "bs-5",
+          "src": "data/images/zhanzhuang/指导弟子邹智鑫.jpg",
+          "alt": "指导弟子",
+          "caption": "张老师指导弟子邹智鑫站桩"
         }
       ]
     },
     {
-      "id": "master-teaching",
-      "name": "师傅教学",
-      "description": "师傅正在指导学员练习",
+      "id": "wuxinquan",
+      "name": "五行拳",
+      "description": "形意拳五行拳法展示",
+      "photos": [
+        {
+          "id": "wx-1",
+          "src": "data/images/wuxinquan/五行拳.jpg",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        },
+        {
+          "id": "basic-1",
+          "src": "data/images/wuxinquan/IMG_3282.JPG",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        },
+        {
+          "id": "basic-2",
+          "src": "data/images/wuxinquan/IMG_3283.JPG",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        },
+        {
+          "id": "basic-3",
+          "src": "data/images/wuxinquan/IMG_3284.JPG",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        },
+        {
+          "id": "basic-4",
+          "src": "data/images/wuxinquan/IMG_3285.JPG",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        },
+        {
+          "id": "basic-5",
+          "src": "data/images/wuxinquan/IMG_3286.JPG",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        },
+        {
+          "id": "basic-6",
+          "src": "data/images/wuxinquan/IMG_3287.JPG",
+          "alt": "张老师演示五行拳分解动作",
+          "caption": "张老师演示五行拳分解动作"
+        }
+      ]
+    },
+    {
+      "id": "shierxing",
+      "name": "十二形拳",
+      "description": "形意拳十二形拳法展示",
+      "photos": [
+        {
+          "id": "sx-2",
+          "src": "data/images/shierxing/虎形.jpg",
+          "alt": "吕老师演示虎形桩",
+          "caption": "吕老师演示虎形桩"
+        },
+        {
+          "id": "sx-3",
+          "src": "data/images/shierxing/蛇形.jpg",
+          "alt": "吕老师演示蛇形桩",
+          "caption": "吕老师演示蛇形桩"
+        },
+        {
+          "id": "sx-4",
+          "src": "data/images/shierxing/燕形.jpg",
+          "alt": "吕老师演示燕形拳",
+          "caption": "吕老师演示燕形桩"
+        },
+        {
+          "id": "sx-5",
+          "src": "data/images/shierxing/吕太敏猴形.jpg",
+          "alt": "吕老师演示猴形桩",
+          "caption": "吕老师演示猴形桩"
+        },
+        {
+          "id": "sx-6",
+          "src": "data/images/shierxing/吕太敏鸡形.jpg",
+          "alt": "吕老师演示鸡形桩",
+          "caption": "吕老师演示鸡形桩"
+        },
+        {
+          "id": "sx-7",
+          "src": "data/images/shierxing/吕太敏鼍形2.jpg",
+          "alt": "吕老师演示鼍形桩",
+          "caption": "吕老师演示鼍形桩"
+        },
+        {
+          "id": "zz-6",
+          "src": "data/images/shierxing/吕太敏燕形桩4.jpg",
+          "alt": "吕老师演示燕形桩",
+          "caption": "吕老师演示燕形桩"
+        },
+        {
+          "id": "zz-7",
+          "src": "data/images/shierxing/蛇形桩.jpg",
+          "alt": "张老师演示蛇形桩",
+          "caption": "张老师演示蛇形桩"
+        },
+        {
+          "id": "group-4",
+          "src": "data/images/shierxing/虎撑.jpg",
+          "alt": "吕老师演示虎撑功法",
+          "caption": "吕老师演示虎撑功法"
+        },
+        {
+          "id": "zz-1",
+          "src": "data/images/zhanzhuang/降龙桩.jpg",
+          "alt": "张老师演示降龙桩",
+          "caption": "张老师演示降龙桩"
+        },
+        {
+          "id": "zz-2",
+          "src": "data/images/shierxing/龙形桩.jpg",
+          "alt": "张老师演示龙形桩",
+          "caption": "张老师演示龙形桩"
+        },
+        {
+          "id": "zz-3",
+          "src": "data/images/shierxing/燕形桩.jpg",
+          "alt": "张老师演示燕形桩",
+          "caption": "张老师演示燕形桩"
+        },
+        {
+          "id": "zz-4",
+          "src": "data/images/shierxing/燕形桩2.jpg",
+          "alt": "张老师演示燕形桩",
+          "caption": "张老师演示燕形桩"
+        },
+        {
+          "id": "zz-5",
+          "src": "data/images/shierxing/燕形桩3.jpg",
+          "alt": "张老师演示燕形桩",
+          "caption": "张老师演示燕形桩"
+        },
+        {
+          "id": "zz-6",
+          "src": "data/images/shierxing/吕老师指导张老师蛇形桩.jpg",
+          "alt": "吕老师指导张老师蛇形桩",
+          "caption": "吕老师指导张老师蛇形桩"
+        },
+        {
+          "id": "zz-7",
+          "src": "data/images/shierxing/吕老师指导张老师蛇形桩2.jpg",
+          "alt": "吕老师指导张老师蛇形桩2",
+          "caption": "吕老师指导张老师蛇形桩2"
+        },{
+          "id": "zz-8",
+          "src": "data/images/shierxing/𩿡形桩.jpg",
+          "alt": "张老师演示𩿡形桩",
+          "caption": "张老师演示𩿡形桩"
+        },{
+          "id": "zz-9",
+          "src": "data/images/shierxing/𩿡形桩2.jpg",
+          "alt": "张老师演示𩿡形桩2",
+          "caption": "张老师演示𩿡形桩2"
+        }
+      ]
+    },
+    {
+      "id": "qixie",
+      "name": "器械训练",
+      "description": "形意拳器械练习展示",
+      "photos": [
+        {
+          "id": "qx-1",
+          "src": "data/images/qixie/吕太敏形意刀.jpg",
+          "alt": "吕老师演示形意刀",
+          "caption": "吕老师演示形意刀"
+        },
+        {
+          "id": "qx-2",
+          "src": "data/images/qixie/吕太敏形意刀2.jpg",
+          "alt": "吕老师演示形意刀2",
+          "caption": "吕老师演示形意刀"
+        },
+        {
+          "id": "qx-3",
+          "src": "data/images/qixie/吕太敏形意刀3.jpg",
+          "alt": "吕老师演示形意刀3",
+          "caption": "吕老师演示形意刀"
+        },
+        {
+          "id": "qx-4",
+          "src": "data/images/qixie/吕太敏形意刀4.jpg",
+          "alt": "吕老师演示形意刀4",
+          "caption": "吕老师演示形意刀"
+        },
+        {
+          "id": "qx-5",
+          "src": "data/images/qixie/吕太敏形意刀5.jpg",
+          "alt": "吕老师演示形意刀5",
+          "caption": "吕老师演示形意刀"
+        },
+        {
+          "id": "qx-6",
+          "src": "data/images/qixie/吕太敏形意剑.jpg",
+          "alt": "吕老师演示形意剑",
+          "caption": "吕老师演示形意剑"
+        },
+        {
+          "id": "qx-7",
+          "src": "data/images/qixie/吕太敏形意剑2.jpg",
+          "alt": "吕老师演示形意剑2",
+          "caption": "吕老师演示形意剑"
+        }
+      ]
+    },
+    {
+      "id": "bishi",
+      "name": "拜师仪式",
+      "description": "形意拳拜师仪式及传承记录",
       "photos": [
         {
           "id": "master-1",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "师傅教学1",
-          "caption": "师傅指导学员"
+          "src": "data/images/baishi/吕太敏书写达摩.jpg",
+          "alt": "吕老书写达摩祖师",
+          "caption": "吕老书写达摩祖师"
         },
         {
           "id": "master-2",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "师傅教学2",
-          "caption": "师傅示范动作"
+          "src": "data/images/baishi/吕太敏书写岳武穆之位.jpg",
+          "alt": "吕老书写岳武穆王",
+          "caption": "吕老书写岳武穆王"
+        },
+        {
+          "id": "sx-1",
+          "src": "data/images/baishi/龙虎先师之位.jpg",
+          "alt": "龙虎先师之位",
+          "caption": "龙虎先师之位"
+        },
+        {
+          "id": "bais-1",
+          "src": "data/images/baishi/吕太敏书写尚云祥师祖之位.jpg",
+          "alt": "吕老书写尚云祥师祖之位",
+          "caption": "吕老书写尚云祥师祖之位"
         },
         {
           "id": "master-3",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "师傅教学3",
-          "caption": "师傅纠正动作"
-        }
-      ]
-    },
-    {
-      "id": "forms-demo",
-      "name": "套路展示",
-      "description": "学员展示形意拳套路",
-      "photos": [
-        {
-          "id": "forms-1",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "套路展示1",
-          "caption": "五行拳套路展示"
+          "src": "data/images/baishi/吕太敏书写李文彬.jpg",
+          "alt": "吕老书写李文彬师爷",
+          "caption": "吕老书写李文彬师爷"
         },
         {
-          "id": "forms-2",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "套路展示2",
-          "caption": "连环拳展示"
+          "id": "master-9",
+          "src": "data/images/baishi/吕太敏写形意归真.jpg",
+          "alt": "吕太敏写形意归真",
+          "caption": "吕太敏老师书写形意归真"
         },
         {
-          "id": "forms-3",
-          "src": "data/images/wuxinquan/五行拳.jpg",   
-          "alt": "套路展示3",
-          "caption": "杂式锤展示"
-        }
-      ]
-    },
-    {
-      "id": "weapons-training",
-      "name": "器械训练",
-      "description": "学员练习形意拳器械",
-      "photos": [
-        {
-          "id": "weapons-1",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "器械训练1",
-          "caption": "形意刀练习"
+          "id": "bs-3",
+          "src": "data/images/baishi/张午生拜师吕太敏先生3.jpg",
+          "alt": "张午生拜师吕太敏先生3",
+          "caption": "张午生拜师吕太敏先生"
         },
         {
-          "id": "weapons-2",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "器械训练2",
-          "caption": "形意枪练习"
+          "id": "bs-2",
+          "src": "data/images/baishi/张午生拜师吕太敏先生2.jpg",
+          "alt": "张午生拜师吕太敏先生2",
+          "caption": "张午生拜师吕太敏先生"
         },
         {
-          "id": "weapons-3",
-          "src": "data/images/wuxinquan/五行拳.jpg",   
-          "alt": "器械训练3",
-          "caption": "器械套路练习"
-        }
-      ]
-    },
-    {
-      "id": "competition",
-      "name": "比赛场景",
-      "description": "形意拳比赛现场",
-      "photos": [
-        {
-          "id": "competition-1",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "比赛场景1",
-          "caption": "比赛现场"
+          "id": "bs-1",
+          "src": "data/images/baishi/张午生拜师吕太敏先生.jpg",
+          "alt": "张午生拜师吕太敏先生",
+          "caption": "张午生拜师吕太敏先生"
         },
         {
-          "id": "competition-2",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "比赛场景2",
-          "caption": "选手对决"
+          "id": "bs-4",
+          "src": "data/images/baishi/拜师贴.jpg",
+          "alt": "张老师拜师贴",
+          "caption": "张老师拜师贴"
         },
         {
-          "id": "competition-3",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "比赛场景3",
-          "caption": "颁奖仪式"
+          "id": "bs-8",
+          "src": "data/images/baishi/P7180187.JPG",
+          "alt": "刘轶恺拜师",
+          "caption": "刘轶恺拜师"
+        },
+        {
+          "id": "bs-9",
+          "src": "data/images/baishi/P7180189.JPG",
+          "alt": "刘轶恺拜师",
+          "caption": "刘轶恺拜师"
+        },
+        {
+          "id": "bs-10",
+          "src": "data/images/baishi/P7180191.JPG",
+          "alt": "刘轶恺拜师",
+          "caption": "刘轶恺拜师"
+        },
+        {
+          "id": "bs-11",
+          "src": "data/images/baishi/P7180193.JPG",
+          "alt": "李太平拜师",
+          "caption": "李太平拜师"
+        },
+        {
+          "id": "bs-12",
+          "src": "data/images/baishi/P7180197.JPG",
+          "alt": "李太平拜师",
+          "caption": "李太平拜师"
+        },
+        {
+          "id": "bs-13",
+          "src": "data/images/baishi/P7180199.JPG",
+          "alt": "李太平拜师",
+          "caption": "李太平拜师"
+        },
+        {
+          "id": "bs-14",
+          "src": "data/images/baishi/P7180200.JPG",
+          "alt": "刘轶恺和李太平拜师张老师",
+          "caption": "刘轶恺和李太平拜师张老师"
+        },
+        {
+          "id": "bs-15",
+          "src": "data/images/baishi/P7180204.JPG",
+          "alt": "刘轶恺拜师",
+          "caption": "刘轶恺拜师"
+        },
+        {
+          "id": "bs-16",
+          "src": "data/images/baishi/P7180205.JPG",
+          "alt": "刘轶恺拜师",
+          "caption": "刘轶恺拜师"
+        },
+        {
+          "id": "bs-18",
+          "src": "data/images/baishi/P7180213.JPG",
+          "alt": "刘轶恺与李太平拜师合影",
+          "caption": "刘轶恺与李太平拜师合影"
         }
       ]
     },
@@ -168,21 +430,82 @@
       "photos": [
         {
           "id": "group-1",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "集体合影1",
-          "caption": "全体学员合影"
+          "src": "data/images/group/合影.jpg",
+          "alt": "合影",
+          "caption": "吕太敏先师与张老师"
         },
         {
           "id": "group-2",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "集体合影2",
-          "caption": "班级合影"
+          "src": "data/images/group/张老师与众弟子站桩.jpg",
+          "alt": "张老师与众弟子站桩",
+          "caption": "张老师与众弟子站桩"
         },
         {
-          "id": "group-3",
-          "src": "data/images/wuxinquan/五行拳.jpg",
-          "alt": "集体合影3",
-          "caption": "师生合影"
+          "id": "bs-6",
+          "src": "data/images/group/指导众弟子.jpg",
+          "alt": "指导众弟子",
+          "caption": "张老师指导众弟子站桩"
+        },
+        {
+          "id": "bs-7",
+          "src": "data/images/group/祭奠尚云祥先师.jpg",
+          "alt": "祭奠尚云祥先师",
+          "caption": "祭奠尚云祥先师"
+        },
+        {
+          "id": "bs-7",
+          "src": "data/images/group/张林与张老师.jpg",
+          "alt": "张林与张老师",
+          "caption": "张林与张老师"
+        }
+      ]
+    },
+    {
+      "id": "master",
+      "name": "师承名家",
+      "description": "形意拳师承名家照片",
+      "photos": [
+        {
+          "id": "master-1",
+          "src": "data/images/master/李文彬与吕太敏.jpg",
+          "alt": "李文彬与吕太敏",
+          "caption": "李文彬先生与吕太敏老师"
+        },
+        {
+          "id": "master-2",
+          "src": "data/images/master/李文彬指导吕太敏三体式.jpg",
+          "alt": "李文彬指导吕太敏三体式",
+          "caption": "李文彬先生指导吕太敏三体式"
+        },
+        {
+          "id": "master-3",
+          "src": "data/images/master/李文彬指导吕太敏鸡形桩.jpg",
+          "alt": "李文彬指导吕太敏鸡形桩",
+          "caption": "李文彬先生指导吕太敏鸡形桩"
+        },
+        {
+          "id": "master-4",
+          "src": "data/images/baishi/张午生拜师吕太敏先生.jpg",
+          "alt": "张午生拜师吕太敏先生",
+          "caption": "张午生拜师吕太敏先生"
+        },
+        {
+          "id": "master-5",
+          "src": "data/images/shierxing/吕老师指导张老师蛇形桩.jpg",
+          "alt": "吕老师指导张老师蛇形桩",
+          "caption": "吕老师指导张老师蛇形桩"
+        },
+        {
+          "id": "master-6",
+          "src": "data/images/shierxing/吕老师指导张老师蛇形桩2.jpg",
+          "alt": "吕老师指导张老师蛇形桩2",
+          "caption": "吕老师指导张老师蛇形桩2"
+        },
+        {
+          "id": "master-7",
+          "src": "data/images/baishi/P7180200.JPG",
+          "alt": "刘轶恺和李太平拜师张老师",
+          "caption": "刘轶恺和李太平拜师张老师"
         }
       ]
     }
