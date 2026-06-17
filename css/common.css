@@ -114,6 +114,84 @@ nav ul li a.active::after {
     background-color: #f39c12;
 }
 
+/* 导航下拉菜单 */
+.nav-dropdown {
+    position: relative;
+}
+
+.dropdown-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid currentColor;
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.nav-dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* 下拉菜单的 active 下划线保留，但用 border 模拟避免和箭头冲突 */
+.nav-dropdown > .dropdown-toggle.active::after {
+    display: none;
+}
+
+.nav-dropdown > .dropdown-toggle.active {
+    border-bottom: 2px solid #f39c12;
+}
+
+/* 用伪元素填充导航链接和下拉菜单之间的间隙，确保鼠标移动时 hover 不中断 */
+.nav-dropdown::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    min-width: 140px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    z-index: 1001;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #333;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #fff8e1;
+    color: #f39c12;
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -473,6 +551,23 @@ footer {
 
     nav ul li {
         margin: 0.5rem;
+    }
+
+    /* 移动端下拉菜单改为点击展开 */
+    .dropdown-menu {
+        position: static;
+        transform: none;
+        box-shadow: none;
+        padding-left: 1rem;
+        margin-top: 0;
+    }
+
+    .nav-dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    .nav-dropdown.open .dropdown-menu {
+        display: block;
     }
 
     .hero {

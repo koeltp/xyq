@@ -1,0 +1,327 @@
+/* 文章页样式 */
+
+/* 面包屑导航 - 使用 div 而非 nav，避免被 common.css 的 nav 样式影响 */
+.breadcrumb {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.breadcrumb a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #f39c12;
+}
+
+.breadcrumb .separator {
+    color: #ccc;
+    margin: 0 0.4rem;
+}
+
+.breadcrumb .current {
+    color: #333;
+}
+
+/* 分类列表页 */
+.article-list h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.article-list h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #f39c12, #e67e22);
+    margin: 0.8rem auto 0;
+    border-radius: 2px;
+}
+
+/* 文章列表 */
+.article-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.article-list-item {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.25s ease;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.article-list-item:hover {
+    background-color: #fffdf5;
+    box-shadow: 0 4px 12px rgba(243, 156, 18, 0.1);
+    transform: translateX(4px);
+}
+
+.article-list-item:hover .article-item-title {
+    color: #f39c12;
+}
+
+.article-list-item:hover .article-item-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.article-item-date {
+    flex-shrink: 0;
+    width: 90px;
+    font-size: 0.9rem;
+    color: #999;
+    border-right: 1px solid #f0f0f0;
+    padding-right: 1.2rem;
+    margin-right: 1.2rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.article-item-date-day {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f39c12;
+    display: block;
+    line-height: 1.1;
+}
+
+.article-item-date-month {
+    font-size: 0.8rem;
+    color: #bbb;
+}
+
+.article-list-item-right {
+    flex: 1;
+    min-width: 0;
+}
+
+.article-item-title {
+    font-size: 1.15rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.article-item-summary {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.article-item-arrow {
+    flex-shrink: 0;
+    margin-left: 1rem;
+    color: #f39c12;
+    opacity: 0;
+    transform: translateX(-8px);
+    transition: all 0.25s ease;
+    font-size: 1.2rem;
+}
+
+/* 文章详情页 */
+.article-detail {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.article-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.article-author {
+    color: #999;
+}
+
+.article-author::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.article-date::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* 文章正文样式 */
+.article-body {
+    line-height: 1.8;
+    color: #444;
+}
+
+.article-body h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f39c12;
+}
+
+.article-body h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 1.5rem 0 0.8rem;
+}
+
+.article-body h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 1.2rem 0 0.6rem;
+}
+
+.article-body p {
+    margin-bottom: 1rem;
+}
+
+.article-body ul,
+.article-body ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.article-body li {
+    margin-bottom: 0.5rem;
+}
+
+.article-body strong {
+    color: #333;
+}
+
+.article-body blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid #f39c12;
+    background-color: #fdf6e3;
+    color: #555;
+}
+
+.article-body code {
+    background-color: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.article-body pre {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+.article-body pre code {
+    background: none;
+    padding: 0;
+}
+
+.article-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.article-body th,
+.article-body td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.article-body th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.article-body tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.article-body img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.article-body hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 2rem 0;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+    .article-list-item {
+        padding: 1rem;
+    }
+
+    .article-item-date {
+        width: 60px;
+        padding-right: 0.8rem;
+        margin-right: 0.8rem;
+    }
+
+    .article-item-date-day {
+        font-size: 1.3rem;
+    }
+
+    .article-detail {
+        padding: 0;
+    }
+
+    .article-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .article-body h2 {
+        font-size: 1.3rem;
+    }
+}
