@@ -32,9 +32,10 @@
             "内劲培养方法",
             "站桩注意事项"
           ]
-        },{
+        },
+        {
           "id": "zhanzhuang-3",
-          "title": "站桩功法演示三",
+          "title": "张老师指导弟子常宗坤站桩",
           "description": "张老师指导弟子常宗坤站桩",
           "videoSrc": "data/videos/zhanzhuang/张老师指导弟子常宗坤站桩.mp4",
           "thumbnail": "data/videos/logo.png",
@@ -45,9 +46,10 @@
             "内劲培养方法",
             "站桩注意事项"
           ]
-        },{
+        },
+        {
           "id": "zhanzhuang-4",
-          "title": "站桩功法演示四",
+          "title": "张老师指导弟子常宗坤站桩2",
           "description": "张老师指导弟子常宗坤站桩2",
           "videoSrc": "data/videos/zhanzhuang/张老师指导弟子常宗坤站桩2.mp4",
           "thumbnail": "data/videos/logo.png",
@@ -58,10 +60,11 @@
             "内劲培养方法",
             "站桩注意事项"
           ]
-        },{
+        },
+        {
           "id": "zhanzhuang-5",
           "title": "张老师指导弟子邹智鑫站桩",
-          "description": "张老师指导弟子邹智鑫站桩",
+          "description": "张老师现场纠正并指导弟子邹智鑫进行形意拳三体式站桩练习",
           "videoSrc": "data/videos/zhanzhuang/张老师指导弟子邹智鑫站桩.mp4",
           "thumbnail": "data/videos/logo.png",
           "content": "站桩功法的进一步演示，展示更多站桩要领和细节。",
@@ -219,7 +222,7 @@
           ]
         },
         {
-          "id": "twelve-animals-6",
+          "id": "twelve-animals-4",
           "title": "活步燕形",
           "description": "活步练习十二形中的燕形拳。",
           "videoSrc": "data/videos/wuxinquan/活步燕形.mp4",
@@ -233,7 +236,7 @@
           ]
         },
         {
-          "id": "twelve-animals-7",
+          "id": "twelve-animals-5",
           "title": "活步蛇形",
           "description": "活步练习十二形中的蛇形拳。",
           "videoSrc": "data/videos/wuxinquan/活步蛇形.mp4",
@@ -247,7 +250,7 @@
           ]
         },
         {
-          "id": "twelve-animals-8",
+          "id": "twelve-animals-6",
           "title": "活步鸡形",
           "description": "活步练习十二形中的鸡形拳。",
           "videoSrc": "data/videos/wuxinquan/活步鸡形.mp4",
@@ -261,7 +264,7 @@
           ]
         },
         {
-          "id": "twelve-animals-9",
+          "id": "twelve-animals-7",
           "title": "活步鹰捉和劈拳",
           "description": "活步练习十二形中的鹰形捉拿和劈拳。",
           "videoSrc": "data/videos/wuxinquan/活步鹰捉和劈拳.mp4",
@@ -385,7 +388,8 @@
             "攻防转换时机",
             "劲力运用原理"
           ]
-        },{
+        },
+        {
           "id": "applications-5",
           "title": "张老师演示劈拳",
           "description": "张老师演示劈拳",
@@ -487,7 +491,8 @@
             "连续动作练习",
             "大杆与拳法结合"
           ]
-        },{
+        },
+        {
           "id": "weapons-7",
           "title": "张老师演示劈枪与对练",
           "description": "张老师演示劈枪与对练",
@@ -523,7 +528,7 @@
           ]
         },
         {
-          "id": "taolu-3",
+          "id": "taolu-2",
           "title": "五形连环拳二",
           "description": "五形连环拳的进一步练习。",
           "videoSrc": "data/videos/taolu/五形连环拳2.mp4",
@@ -537,7 +542,7 @@
           ]
         },
         {
-          "id": "taolu-2",
+          "id": "taolu-3",
           "title": "五形连环拳三",
           "description": "学习形意拳的五形连环拳三",
           "videoSrc": "data/videos/taolu/五形连环拳3.mp4",

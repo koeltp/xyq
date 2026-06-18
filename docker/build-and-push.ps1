@@ -1,7 +1,7 @@
-# 构建并推送 Docker 镜像到阿里云容器镜像服务
-# 用法: ./build-and-push.ps1 [版本标签]
-# 示例: ./build-and-push.ps1          (默认 latest)
-#        ./build-and-push.ps1 v1.2.0
+﻿# Build and push Docker image to Alibaba Cloud Container Registry
+# Usage: ./build-and-push.ps1 [version tag]
+# Example: ./build-and-push.ps1          (default: latest)
+#          ./build-and-push.ps1 v1.2.0
 
 param(
     [string]$Tag = "latest"
@@ -14,69 +14,69 @@ $namespace = "tmd"
 $imageName = "xyq"
 $fullImageName = "${registry}/${namespace}/${imageName}:${Tag}"
 
-# 项目根目录（脚本在 docker/ 下，需回到上级目录构建）
+# Project root (script is under docker/, go one level up to build)
 $projectRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "  逸武形意拳 - Docker 镜像构建发布" -ForegroundColor Cyan
+Write-Host "  XingYiQuan - Docker Build & Release" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "镜像: ${fullImageName}" -ForegroundColor Yellow
-Write-Host "目录: ${projectRoot}" -ForegroundColor Yellow
+Write-Host "Image: ${fullImageName}" -ForegroundColor Yellow
+Write-Host "Path:  ${projectRoot}" -ForegroundColor Yellow
 Write-Host ""
 
-# 登录
-Write-Host "[1/4] 登录阿里云容器镜像服务..." -ForegroundColor Green
+# Login
+Write-Host "[1/4] Logging in to Alibaba Cloud ACR..." -ForegroundColor Green
 docker login $registry
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "登录失败" -ForegroundColor Red
+    Write-Host "Login failed" -ForegroundColor Red
     exit 1
 }
-Write-Host "登录成功" -ForegroundColor Green
+Write-Host "Login successful" -ForegroundColor Green
 Write-Host ""
 
-# 构建文章
-Write-Host "[2/4] 构建 MD 文章..." -ForegroundColor Green
+# Build articles from Markdown
+Write-Host "[2/4] Building MD articles..." -ForegroundColor Green
 Push-Location (Join-Path $projectRoot "md")
 if (-not (Test-Path "node_modules")) {
-    Write-Host "  安装依赖..." -ForegroundColor Yellow
+    Write-Host "  Installing dependencies..." -ForegroundColor Yellow
     npm install
     if ($LASTEXITCODE -ne 0) {
-        Write-Host "依赖安装失败" -ForegroundColor Red
+        Write-Host "Dependency install failed" -ForegroundColor Red
         Pop-Location
         exit 1
     }
 }
 npm run build
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "文章构建失败" -ForegroundColor Red
+    Write-Host "Article build failed" -ForegroundColor Red
     Pop-Location
     exit 1
 }
 Pop-Location
-Write-Host "文章构建成功" -ForegroundColor Green
+Write-Host "Article build successful" -ForegroundColor Green
 Write-Host ""
 
-# 构建
-Write-Host "[3/4] 构建 Docker 镜像..." -ForegroundColor Green
+# Build Docker image
+Write-Host "[3/4] Building Docker image..." -ForegroundColor Green
 docker build -t $fullImageName -f "$projectRoot/Dockerfile" $projectRoot
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "构建失败" -ForegroundColor Red
+    Write-Host "Build failed" -ForegroundColor Red
     exit 1
 }
-Write-Host "构建成功" -ForegroundColor Green
+Write-Host "Build successful" -ForegroundColor Green
 Write-Host ""
 
-# 推送
-# Write-Host "[4/4] 推送镜像到阿里云..." -ForegroundColor Green
+# Push
+# Write-Host "[4/4] Pushing image to ACR..." -ForegroundColor Green
 # docker push $fullImageName
 # if ($LASTEXITCODE -ne 0) {
-#     Write-Host "推送失败" -ForegroundColor Red
+#     Write-Host "Push failed" -ForegroundColor Red
 #     exit 1
 # }
-# Write-Host "推送成功" -ForegroundColor Green
+# Write-Host "Push successful" -ForegroundColor Green
 # Write-Host ""
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "  发布完成！" -ForegroundColor Cyan
-Write-Host "  镜像地址: ${fullImageName}" -ForegroundColor Yellow
+Write-Host "  Release complete!" -ForegroundColor Cyan
+Write-Host "  Image: ${fullImageName}" -ForegroundColor Yellow
 Write-Host "========================================" -ForegroundColor Cyan
