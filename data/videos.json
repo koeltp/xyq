@@ -9,7 +9,7 @@
           "id": "zhanzhuang-1",
           "title": "站桩功法演示",
           "description": "张老师演示形意拳站桩功法。",
-          "videoSrc": "data/videos/站桩.mp4",
+          "videoSrc": "data/videos/zhanzhuang/张老师演示站桩.mp4",
           "thumbnail": "data/videos/logo.png",
           "content": "站桩是形意拳的基本功法，通过正确的站桩姿势可以培养内劲，增强身体的平衡感和稳定性。",
           "keyPoints": [
@@ -23,7 +23,46 @@
           "id": "zhanzhuang-2",
           "title": "站桩功法演示二",
           "description": "张老师演示形意拳站桩功法。",
-          "videoSrc": "data/videos/站桩2.mp4",
+          "videoSrc": "data/videos/zhanzhuang/张老师演示站桩2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "站桩功法的进一步演示，展示更多站桩要领和细节。",
+          "keyPoints": [
+            "站桩进阶要领",
+            "呼吸与动作配合",
+            "内劲培养方法",
+            "站桩注意事项"
+          ]
+        },{
+          "id": "zhanzhuang-3",
+          "title": "站桩功法演示三",
+          "description": "张老师指导弟子常宗坤站桩",
+          "videoSrc": "data/videos/zhanzhuang/张老师指导弟子常宗坤站桩.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "站桩功法的进一步演示，展示更多站桩要领和细节。",
+          "keyPoints": [
+            "站桩进阶要领",
+            "呼吸与动作配合",
+            "内劲培养方法",
+            "站桩注意事项"
+          ]
+        },{
+          "id": "zhanzhuang-4",
+          "title": "站桩功法演示四",
+          "description": "张老师指导弟子常宗坤站桩2",
+          "videoSrc": "data/videos/zhanzhuang/张老师指导弟子常宗坤站桩2.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "站桩功法的进一步演示，展示更多站桩要领和细节。",
+          "keyPoints": [
+            "站桩进阶要领",
+            "呼吸与动作配合",
+            "内劲培养方法",
+            "站桩注意事项"
+          ]
+        },{
+          "id": "zhanzhuang-5",
+          "title": "张老师指导弟子邹智鑫站桩",
+          "description": "张老师指导弟子邹智鑫站桩",
+          "videoSrc": "data/videos/zhanzhuang/张老师指导弟子邹智鑫站桩.mp4",
           "thumbnail": "data/videos/logo.png",
           "content": "站桩功法的进一步演示，展示更多站桩要领和细节。",
           "keyPoints": [
@@ -223,14 +262,14 @@
         },
         {
           "id": "twelve-animals-9",
-          "title": "活步鹰捉和臂拳",
-          "description": "活步练习十二形中的鹰形捉拿和臂拳。",
-          "videoSrc": "data/videos/wuxinquan/活步鹰捉和臂拳.mp4",
+          "title": "活步鹰捉和劈拳",
+          "description": "活步练习十二形中的鹰形捉拿和劈拳。",
+          "videoSrc": "data/videos/wuxinquan/活步鹰捉和劈拳.mp4",
           "thumbnail": "data/videos/logo.png",
-          "content": "鹰形拳是十二形拳之一，模仿鹰的形态和特性，具有抓拿、准狠、俯冲的特点。活步鹰捉和臂拳练习展示鹰形的抓拿特点和臂拳的发力方法。",
+          "content": "鹰形拳是十二形拳之一，模仿鹰的形态和特性，具有抓拿、准狠、俯冲的特点。活步鹰捉和劈拳练习展示鹰形的抓拿特点和劈拳的发力方法。",
           "keyPoints": [
             "鹰捉基本技法",
-            "臂拳发力方法",
+            "劈拳发力方法",
             "活步配合要领",
             "抓拿与打击结合"
           ]
@@ -346,6 +385,17 @@
             "攻防转换时机",
             "劲力运用原理"
           ]
+        },{
+          "id": "applications-5",
+          "title": "张老师演示劈拳",
+          "description": "张老师演示劈拳",
+          "videoSrc": "data/videos/shizhan/张老师演示劈拳实战.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "张老师演示劈拳的发力方法与技巧",
+          "keyPoints": [
+            "劈拳发力方法",
+            "劈拳技巧"
+          ]
         }
       ]
     },
@@ -436,6 +486,19 @@
             "劲力控制训练",
             "连续动作练习",
             "大杆与拳法结合"
+          ]
+        },{
+          "id": "weapons-7",
+          "title": "张老师演示劈枪与对练",
+          "description": "张老师演示劈枪与对练",
+          "videoSrc": "data/videos/qixie/张老师演示劈枪.mp4",
+          "thumbnail": "data/videos/logo.png",
+          "content": "张老师演示劈枪与对练",
+          "keyPoints": [
+            "劈枪进阶动作",
+            "劲力控制训练",
+            "连续动作练习",
+            "劈枪与拳法结合"
           ]
         }
       ]

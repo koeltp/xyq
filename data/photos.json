@@ -94,6 +94,24 @@
           "src": "data/images/zhanzhuang/张老师在冈仁波齐站桩2.jpg",
           "alt": "张老师在海拔5200米处的冈仁波齐站桩",
           "caption": "张老师在海拔5200米处的冈仁波齐站桩"
+        },
+        {
+          "id": "bs-9",
+          "src": "data/images/zhanzhuang/张老师演示站桩5.jpg",
+          "alt": "张老师演示站桩",
+          "caption": "张老师演示站桩"
+        },
+        {
+          "id": "bs-10",
+          "src": "data/images/zhanzhuang/张老师演示站桩6.jpg",
+          "alt": "张老师演示站桩",
+          "caption": "张老师演示站桩"
+        },
+        {
+          "id": "bs-11",
+          "src": "data/images/zhanzhuang/张老师演示站桩7.jpg",
+          "alt": "张老师演示站桩",
+          "caption": "张老师演示站桩"
         }
       ]
     },
