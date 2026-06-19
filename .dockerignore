@@ -1,6 +1,9 @@
 # 数据目录（通过 docker-compose volume 挂载）
 data/
 
+# Markdown 源文件和构建工具（构建产物 articles/ 需要打入镜像）
+md/
+
 # 版本控制
 .git/
 .gitignore
@@ -23,5 +26,4 @@ temp/
 *.log
 
 # 文档
-*.md
-REAMDE.md
+README.md
