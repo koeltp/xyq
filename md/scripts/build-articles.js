@@ -20,9 +20,9 @@ const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
 
 // 分类拼音映射（手动维护，确保 URL 美观）
 const CATEGORY_PINYIN_MAP = {
+    '拳法解析': 'quanfa-jiexi',
     '养生知识': 'yangsheng-zhishi',
     '防身技巧': 'fangshen-jiqiao',
-    '拳法解析': 'quanfa-jiexi',
     '学员故事': 'xueyuan-gushi'
 };
 
